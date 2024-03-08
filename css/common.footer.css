@@ -1,96 +1,180 @@
-.footer__nav{
-    background-color: #f7f6f2;
-    padding: 77px 0;
+.footer__nav {
+  background-color: #f7f6f2;
+  padding: 77px 0;
 }
 
-.footer__container{
-    max-width: 1170px;
-    margin: auto;
+.footer__container {
+  max-width: 1170px;
+  margin: auto;
 }
 
-ul{
-    list-style: none;
+ul {
+  list-style: none;
 }
 
-.footer__col{
-    width: 25%;
-    padding: 0 15px;
+.footer__col {
+  width: 25%;
+  padding: 0 15px;
 }
 
-.footer__row{
-    display: flex;
-    flex-wrap: wrap;
+.footer__row {
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.footer__col h4{
-    font-size: 26px;
-    color: #4b566a;
-    text-transform: capitalize;
-    margin-bottom: 30px;
-    font-family: "Vollkorn", serif;
-    font-weight: 400;
-    position: relative;
+.footer__col h4 {
+  font-size: 20px;
+  color: #4b566a;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+  font-family: "Vollkorn", serif;
+  font-weight: 400;
+  position: relative;
 }
 
-.footer__col h4::before{
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: -22px;
-    background-color: #ff5d28;
-    height: 2px;
-    box-sizing: border-box;
-    width: 20px;
+.footer__under-additional-info h4::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -22px;
+  background-color: #ff5d28;
+  height: 2px;
+  box-sizing: border-box;
+  width: 20px;
 }
 
 .footer__col p {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    position: relative;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  position: relative;
 }
 
-.footer__col ul li::not(:last-child){
-    margin-bottom: 10px;
+.footer__col ul li::not(:last-child) {
+  margin-bottom: 10px;
 }
 
-.footer__col ul li a{
-    font-size: 15px;
-    text-transform: capitalize;
-    color: #9b9ea4;
-    text-decoration: none;
-    font-weight: 500;
-    display: block;
+.footer__col ul li a {
+  font-size: 15px;
+  text-transform: capitalize;
+  color: #9b9ea4;
+  text-decoration: none;
+  font-weight: 500;
+  display: block;
 }
 
-.footer__col ul li a:hover{
-    color: #9b9ea4;
-    padding-left: 3px;
+.footer__col ul li a:hover {
+  color: #51627b;
 }
 
-.footer__social-links img{
-    display: inline-block;
-    height: 25px;
-    width: 25px;
-    margin: 0 10px 10px 0;
-    transition: all 0.5s ease;
+.footer__social-links img {
+  display: inline-block;
+  height: 25px;
+  width: 25px;
+  margin: 0 10px 10px 0;
+  transition: all 0.5s ease;
 }
 
-.footer__title-paragraph{
-    font-size: 17px;
-    color: #9b9ea4;
-    font-weight: 100;
-    font-family: "Roboto", sans-serif;
-    font-weight: 100;
-    font-style: normal;
-    vertical-align: baseline;
+.footer__title-paragraph {
+  font-size: 17px;
+  color: #9b9ea4;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  font-weight: thin 100;
+  font-style: normal;
+  vertical-align: baseline;
 }
 
-.footer__title-additional-paragraph{
-    font-size: 15px;
-    color: #9b9ea4;
-    font-weight: 100;
-    font-family: "Roboto", sans-serif;
-    font-weight: 100;
-    font-style: normal;
-    vertical-align: baseline;
+.footer_col-content .footer__title-paragraph{
+  font-size: 12px;
+  color: #9b9ea4;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  vertical-align: baseline;
+}
+
+.footer__col-additinional-info {
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
+  border-bottom: 1px solid #e6e5e1;
+  margin: 0;
+  margin-bottom: 70px;
+}
+
+
+.footer__col-additinional-info .footer__col{
+  margin-top: 0px;
+  margin-bottom: 20px;
+  margin-right: 40px;
+  display: flex;
+  align-items: center;
+  
+}
+
+.footer__col-additinional-info .footer__col h4{
+  display: inline;
+}
+
+.footer__col-additinional-info img{
+  display: block;
+  margin-right: 10px;
+  margin-top: -40px;
+  width: 55px;
+}
+
+.footer__elgambino-logo-block{
+  width: 300px;
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 20px;
+}
+
+
+.footer__elgambino-logo-block img{
+  width: 110px;
+  height: 30px;
+  margin-right: 15px;
+}
+
+
+.footer__elgambino-logo-block p{
+  margin-top: 15px;
+  font-size: 10px;
+  color: #9b9ea4;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer__elgambino-logo-block .footer__col{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 15px;
+  flex-basis: 25%;
+  padding: 10px;
+}
+
+.footer__elgambino-logo-block ul, .footer__elgambino-logo-block p{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 15px;
+}
+
+.footer__elgambino-logo-block ul li a{
+  font-size: 10px;
+  color: #4b566a;
+  text-decoration: underline;
+  margin-right: 15px;
+}
+
+.footer__elgambino-logo-block ul li a:hover{
+  color: #fd845b;
+}
+
+.footer__elgambino-logo-block, .footer__links-block{
+  display: flex;
 }
