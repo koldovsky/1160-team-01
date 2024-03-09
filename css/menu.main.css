@@ -1,0 +1,46 @@
+.menu__section-heading{
+    font-size: 11px;
+    font-family: "Roboto", sans-serif;
+    color: #ff5d28;
+}
+
+.item__name__heading{
+    font-size: 34px;
+    font-family: "Vollkorn", serif;
+    color: #4b566a;
+}
+
+.item__name{
+    font-weight: normal;
+    font-size: 22px;
+    font-family: "Vollkorn", serif;
+    color: #4b566a;
+}
+.item__description{
+    font-size: 17px;
+    font-family: "Roboto", sans-serif;
+    color: #9b9ea4;
+}
+
+.item__price{
+    font-weight: bold;   
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    color: #ff5d28;
+}
+
+.img__decor{
+   height: 40px;
+}
+
+.menu__list{
+    display: grid;
+}
+
+@media(min-width: 768px){
+
+    .menu__list{
+        grid-template-columns: 1fr 1fr;
+    }
+
+}

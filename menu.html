@@ -1,6 +1,7 @@
-np<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="css/menu.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu Page | Restaurant</title>
@@ -12,6 +13,7 @@ np<!DOCTYPE html>
     </header>
     <main>
         <div data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="menu.main.partial.html"></div>
+        <div data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="menu.reserve.partial.html"></div>
     </main>
     <footer>
         <nav data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="common.footer-nav.partial.html"></nav>
