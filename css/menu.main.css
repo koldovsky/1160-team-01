@@ -28,3 +28,19 @@
     font-family: "Roboto", sans-serif;
     color: #ff5d28;
 }
+
+.img__decor{
+   height: 40px;
+}
+
+.menu__list{
+    display: grid;
+}
+
+@media(min-width: 768px){
+
+    .menu__list{
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
