@@ -13,7 +13,7 @@ img {
 }
 
 :root {
-  --primary-font:"Roboto", sans-serif;
+  --primary-font: "Roboto", sans-serif;
   --secondary-font: "Vollkorn", serif;
   --title-text-color: rgb(255, 93, 40);
   --main-text-color: rgb(75, 86, 106);
@@ -24,8 +24,8 @@ img {
   --link-text-color: rgba(247, 246, 242, 0.85);
   --button-background-color: rgb(255, 93, 40);
   --button-light-text-color: rgb(255, 255, 255);
-  --button-dark-text-color:rgb(75, 86, 106);
-  --button-accent-text-color:rgb(255, 93, 40);
+  --button-dark-text-color: rgb(75, 86, 106);
+  --button-accent-text-color: rgb(255, 93, 40);
   --navigation-text-color: rgb(166, 58, 24);
   --background-color: rgb(247, 246, 242);
   scroll-behavior: smooth;

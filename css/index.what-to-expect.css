@@ -25,9 +25,10 @@
 }
 
 .what-to-expect__accessory-img {
-  width: 100px;
-  padding-right: 15px;
-  padding-left: 15px;
+  display: block;
+  margin: auto;
+  text-align: center;
+  width: 70px;
 }
 
 .what-to-expect__description {
@@ -45,7 +46,10 @@
 }
 
 .what-to-expect__icon {
-  display: inline;
+  display: block;
+  position: relative;
+  height: 100%;
+  padding-top: 26.57%;
   padding-right: 15px;
   padding-left: 15px;
 }
@@ -61,12 +65,11 @@
 }
 
 .what-to-expect__item-description {
-    padding-right: 15px;
-    padding-left: 15px;
-    font-family: var(--primary-font);
-    color: var(--tertiary-text-color);
-    font-size: 17px;
-    font-weight: 400;
-    text-align: left;
-   
+  padding-right: 15px;
+  padding-left: 15px;
+  font-family: var(--primary-font);
+  color: var(--tertiary-text-color);
+  font-size: 17px;
+  font-weight: 400;
+  text-align: left;
 }
