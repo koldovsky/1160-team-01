@@ -2,7 +2,7 @@
 
 body {
     font-family: var(--primary-font);
-
+    font-weight: 400;
 }
 
 .book__upper-text {
@@ -21,21 +21,24 @@ body {
     font-family: var(--secondary-font);
     color: var(--main-text-color);
     font-size: 34px;
-    font-weight: 400;
 }
 
 .book__subtitle {
     color: var(--sekondary-text-color);
     font-size: 19px;
-    font-weight: 400;
 }
 
 .book__text {
     color: var(--tertiary-text-color);
     font-size: 17px;
-    font-weight: 400;
 }
 
 .book__li-img {
     width: 50px;
+}
+
+.book__li-content-header {
+    font-family: var(--secondary-font);
+    color: var(--main-text-color);
+    font-size: 22px;
 }
