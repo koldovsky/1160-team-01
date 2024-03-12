@@ -52,3 +52,8 @@ img {
 .book__right {
     background-color: var(--background-color-white);
 }
+
+.book__form {
+    display: flex;
+    flex-direction: column;
+}
