@@ -3,3 +3,9 @@
 .book__orange-delimiter {
     width: 70px;
 }
+
+.book__upper-text {
+    font-size: 11px;
+    color: #ff5d28;
+    text-transform: uppercase;
+}
