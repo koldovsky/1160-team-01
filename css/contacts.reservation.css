@@ -8,7 +8,7 @@ body {
     width: 70px;
 }
 
-.book-header {
+.book__header {
     font-family: var(--secondary-font);
     color: var(--main-text-color);
     font-size: 34px;
