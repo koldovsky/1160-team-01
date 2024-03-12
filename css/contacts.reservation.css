@@ -1,11 +1,16 @@
 @import "global.css";
 
+body {
+    font-family: var(--primary-font);
+}
+
+
 .book__orange-delimiter {
     width: 70px;
 }
 
 .book__upper-text {
     font-size: 11px;
-    color: #ff5d28;
+    color: var(--title-text-color);
     text-transform: uppercase;
 }
