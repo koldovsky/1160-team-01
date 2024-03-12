@@ -15,8 +15,8 @@
 
 .title {
   font-size: 11px;
-  color: #ff5d28;
-  font-family: "Roboto", sans-serif;
+  color: var(--title-text-color);
+  font-family: var(--primary-font);
   line-height: 32px;
   position: relative;
   padding-top: 95px;
@@ -27,8 +27,8 @@
 
 .subtitle {
   font-size: 34px;
-  color: #4b566a;
-  font-family: "Vollkorn", serif;
+  color: var(--main-text-color);
+  font-family: var(--secondary-font);
   line-height: 40.8px;
   position: relative;
   margin: 0 auto;
@@ -38,8 +38,8 @@
 
 .text-under-title {
   font-size: 19px;
-  color: #82868f;
-  font-family: "Roboto", sans-serif;
+  color: var(--sekondary-text-color);
+  font-family: var(--primary-font);
   position: relative;
   margin: auto;
   width: 80%;
@@ -106,8 +106,8 @@
 
 .top-title {
   font-size: 14px;
-  color: #82868f;
-  font-family: "Roboto", sans-serif;
+  color: var(--sekondary-text-color);
+  font-family: var(--primary-font);
   font-style: italic;
   text-align: left;
   width: fit-content;
@@ -119,8 +119,8 @@
 
 .block-title {
   font-size: 22px;
-  color: #4b566a;
-  font-family: "Vollkorn", serif;
+  color: var(--sekondary-text-color);
+  font-family: var(--secondary-font);
   text-align: left;
   width: fit-content;
   line-height: 28.6px;
@@ -131,8 +131,8 @@
 
 .block-text {
   font-size: 17px;
-  color: #9b9ea4;
-  font-family: "Roboto", sans-serif;
+  color: var(--tertiary-text-color);
+  font-family: var(--primary-font);
   text-align: left;
   line-height: 1.6;
   width: fit-content;
@@ -142,9 +142,9 @@
 }
 
 .contacts__button {
-  background-color:#ff5d28; 
-  color: #ffffff; 
-  font-family: Arial, sans-serif; 
+  background-color: var(--button-accent-text-color); 
+  color: var(--button-light-text-color); 
+  font-family: var(--button-font); 
   font-size: 16px; 
   font-weight: bold; 
   padding: 14px 20px; 
@@ -161,7 +161,7 @@
 .blocks-of-images {
   display: grid;
   gap: 0;
-  border: 1px solid var(--border-color);
+  border: 1px;
   padding: 5px;
 }
 
@@ -231,6 +231,6 @@
   }
 
   .images {
-    order: -1; /* Змінюємо порядок, щоб зображення було розташоване перед білим блоком */
+    order: -1;
   }
 }
