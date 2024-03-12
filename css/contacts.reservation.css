@@ -58,7 +58,7 @@ img {
     flex-direction: column;
 }
 
-.book__input {
+.book__form-field {
     background-color: var(--background-color); 
     color: var(--placeholder-text-color); 
     font-size: 16px; 
