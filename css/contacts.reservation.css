@@ -4,10 +4,15 @@ body {
     font-family: var(--primary-font);
 }
 
-
-
 .book__orange-delimiter {
     width: 70px;
+}
+
+.book-header {
+    font-family: var(--secondary-font);
+    color: var(--main-text-color);
+    font-size: 34px;
+    font-weight: 400;
 }
 
 .book__upper-text {
