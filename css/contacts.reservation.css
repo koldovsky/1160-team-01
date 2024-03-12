@@ -1,2 +1,5 @@
 @import "global.css";
 
+.book__orange-delimiter {
+    width: 70px;
+}
