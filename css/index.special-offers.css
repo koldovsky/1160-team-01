@@ -42,6 +42,7 @@
   font-family: "Roboto", sans-serif;
   position: relative;
   margin: auto;
+  width: 80%;
   width: fit-content;
   text-align: center;
   font-weight: bold;
@@ -49,7 +50,7 @@
 }
 
 .meal-img {
-  width: 272px;
+  width: 270px;
   height: 229.8px;
   object-fit: cover;
   object-position: center bottom;
@@ -64,7 +65,7 @@
 }
 
 .cocktail-img {
-  width: 272px;
+  width: 270px;
   height: 229.8px;
   object-fit: cover;
   object-position: center;
@@ -79,7 +80,7 @@
 }
 
 .girls-img {
-  width: 272px;
+  width: 270px;
   height: 229.8px;
   object-fit: cover;
   object-position: center;
@@ -94,13 +95,13 @@
 }
 
 .white-block {
-  width: 272px;
-  height: 389.962px;
+  width: 270px;
+  height: 387.0px;
   background-color: white;
   padding: 20px;
   margin: auto;
   margin-bottom: -10px;
-  max-width: 100%; /* Максимальна ширина білих блоків */
+  max-width: 100%;
 }
 
 .top-title {
@@ -111,8 +112,9 @@
   text-align: left;
   width: fit-content;
   font-weight: bold;
-  line-height: 19.32px;
-  margin-bottom: 10px;
+  margin-bottom: 20px; 
+  margin-top: 20px;
+  padding-left: 20px;
 }
 
 .block-title {
@@ -122,8 +124,9 @@
   text-align: left;
   width: fit-content;
   line-height: 28.6px;
-  margin-bottom: 10px;
-  margin-top: 10px;
+  margin-bottom: -20px;
+  margin-top: 20px;
+  padding-left: 20px;
 }
 
 .block-text {
@@ -131,10 +134,28 @@
   color: #9b9ea4;
   font-family: "Roboto", sans-serif;
   text-align: left;
+  line-height: 1.6;
   width: fit-content;
-  line-height: 19.32px;
-  margin-bottom: 10px;
-  margin-top: 10px;
+  position: relative;
+  top: 50px;
+  padding-left: 20px;
+}
+
+.contacts__button {
+  background-color:#ff5d28; 
+  color: #ffffff; 
+  font-family: Arial, sans-serif; 
+  font-size: 16px; 
+  font-weight: bold; 
+  padding: 14px 20px; 
+  border: none; 
+  border-radius: 25px; 
+  cursor: pointer;
+  text-decoration: none; 
+  transition: 0.3s; 
+  position: relative;
+  top: 90px;
+  margin-left: 20px;
 }
 
 .blocks-of-images {
@@ -144,26 +165,72 @@
   padding: 5px;
 }
 
-@media (min-width: 320px) {
-  .blocks-of-images {
-    grid-template-columns: 1fr;
-  }
-}
-
 @media (min-width: 768px) {
   .blocks-of-images {
-    grid-template-columns: 1fr 1fr;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0px; 
+  }
+  
+  .special-offer-weekday,
+  .special-offer-sweet,
+  .discount {
+    display: grid;
+    grid-template-columns: auto 1fr; 
+    gap: 0px; 
+    align-items: center;
+  }
+  
+  .white-block {
+    background-color: white;
+    padding: 20px;
+    width: 355.6px; 
+    height: 325.01px; 
+    margin-left: 0px;
+    margin-bottom: 0px;
+  }
+
+  .girls-img,
+  .cocktail-img,
+  .meal-img {
+    width: 355.6px;
+    height: 325.01px; 
+    margin-left: 25px;
+    margin-top: 0;
+    margin-bottom: 0;
   }
 }
 
 @media (min-width: 992px) {
   .blocks-of-images {
-    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 0px;
   }
-}
+  
+  .special-offer-weekday,
+  .special-offer-sweet,
+  .discount {
+    display: flex;
+    align-items: center; 
+  }
 
-@media (min-width: 1027px) {
-  .blocks-of-images {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+  .white-block {
+    background-color: white;
+    width: 390px; 
+    height: 354px;
+
+  }
+
+  .girls-img,
+  .cocktail-img,
+  .meal-img {
+    width: 390px; 
+    height: 354px;
+
+  }
+
+  .images {
+    order: -1; /* Змінюємо порядок, щоб зображення було розташоване перед білим блоком */
   }
 }
