@@ -34,6 +34,10 @@ body {
     font-size: 17px;
 }
 
+img {
+    width: 100%;
+}
+
 .book__li-img {
     width: 50px;
 }
@@ -45,5 +49,5 @@ body {
 }
 
 .book__right {
-    background-color: --background-color-white;
+    background-color: var(--background-color-white);
 }
