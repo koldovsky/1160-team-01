@@ -1,0 +1,236 @@
+.content {
+  position: relative;
+  background-image: url(../img/special-offers/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.accessory-img {
+  display: block;
+  margin: auto;
+  text-align: center;
+  width: 70px;
+}
+
+.title {
+  font-size: 11px;
+  color: var(--title-text-color);
+  font-family: var(--primary-font);
+  line-height: 32px;
+  position: relative;
+  padding-top: 95px;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: bold;
+}
+
+.subtitle {
+  font-size: 34px;
+  color: var(--main-text-color);
+  font-family: var(--secondary-font);
+  line-height: 40.8px;
+  position: relative;
+  margin: 0 auto;
+  width: fit-content;
+  text-align: center;
+}
+
+.text-under-title {
+  font-size: 19px;
+  color: var(--sekondary-text-color);
+  font-family: var(--primary-font);
+  position: relative;
+  margin: auto;
+  width: 80%;
+  width: fit-content;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.meal-img {
+  width: 270px;
+  height: 229.8px;
+  object-fit: cover;
+  object-position: center bottom;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: -10px;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.cocktail-img {
+  width: 270px;
+  height: 229.8px;
+  object-fit: cover;
+  object-position: center;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: -10px;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.girls-img {
+  width: 270px;
+  height: 229.8px;
+  object-fit: cover;
+  object-position: center;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: -10px;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.white-block {
+  width: 270px;
+  height: 387.0px;
+  background-color: white;
+  padding: 20px;
+  margin: auto;
+  margin-bottom: -10px;
+  max-width: 100%;
+}
+
+.top-title {
+  font-size: 14px;
+  color: var(--sekondary-text-color);
+  font-family: var(--primary-font);
+  font-style: italic;
+  text-align: left;
+  width: fit-content;
+  font-weight: bold;
+  margin-bottom: 20px; 
+  margin-top: 20px;
+  padding-left: 20px;
+}
+
+.block-title {
+  font-size: 22px;
+  color: var(--sekondary-text-color);
+  font-family: var(--secondary-font);
+  text-align: left;
+  width: fit-content;
+  line-height: 28.6px;
+  margin-bottom: -20px;
+  margin-top: 20px;
+  padding-left: 20px;
+}
+
+.block-text {
+  font-size: 17px;
+  color: var(--tertiary-text-color);
+  font-family: var(--primary-font);
+  text-align: left;
+  line-height: 1.6;
+  width: fit-content;
+  position: relative;
+  top: 50px;
+  padding-left: 20px;
+}
+
+.contacts__button {
+  background-color: var(--button-accent-text-color); 
+  color: var(--button-light-text-color); 
+  font-family: var(--button-font); 
+  font-size: 16px; 
+  font-weight: bold; 
+  padding: 14px 20px; 
+  border: none; 
+  border-radius: 25px; 
+  cursor: pointer;
+  text-decoration: none; 
+  transition: 0.3s; 
+  position: relative;
+  top: 90px;
+  margin-left: 20px;
+}
+
+.blocks-of-images {
+  display: grid;
+  gap: 0;
+  border: 1px;
+  padding: 5px;
+}
+
+@media (min-width: 768px) {
+  .blocks-of-images {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0px; 
+  }
+  
+  .special-offer-weekday,
+  .special-offer-sweet,
+  .discount {
+    display: grid;
+    grid-template-columns: auto 1fr; 
+    gap: 0px; 
+    align-items: center;
+  }
+  
+  .white-block {
+    background-color: white;
+    padding: 20px;
+    width: 355.6px; 
+    height: 325.01px; 
+    margin-left: 0px;
+    margin-bottom: 0px;
+  }
+
+  .girls-img,
+  .cocktail-img,
+  .meal-img {
+    width: 355.6px;
+    height: 325.01px; 
+    margin-left: 25px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  .blocks-of-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 0px;
+  }
+  
+  .special-offer-weekday,
+  .special-offer-sweet,
+  .discount {
+    display: flex;
+    align-items: center; 
+  }
+
+  .white-block {
+    background-color: white;
+    width: 390px; 
+    height: 354px;
+
+  }
+
+  .girls-img,
+  .cocktail-img,
+  .meal-img {
+    width: 390px; 
+    height: 354px;
+
+  }
+
+  .images {
+    order: -1;
+  }
+}
