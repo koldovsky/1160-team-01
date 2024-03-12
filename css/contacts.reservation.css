@@ -43,3 +43,7 @@ body {
     color: var(--main-text-color);
     font-size: 22px;
 }
+
+.book__right {
+    background-color: --background-color-white;
+}

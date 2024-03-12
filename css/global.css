@@ -23,6 +23,7 @@
   --button-accent-text-color: rgb(255, 93, 40);
   --navigation-text-color: rgb(166, 58, 24);
   --background-color: rgb(247, 246, 242);
+  --background-color-white: rgb(255, 255, 255);
   --scroll-behavior: smooth;
   
 }
