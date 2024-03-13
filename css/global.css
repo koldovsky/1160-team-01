@@ -1,12 +1,38 @@
-@import url('https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wdth,wght@8..144,50,100..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wdth,wght@8..144,50,100..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap");
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-img{
-    display: block;
-    width: 100%;
+img {
+  display: block;
+  width: 100%;
 }
+
+:root {
+  --primary-font: "Roboto", sans-serif;
+  --secondary-font: "Vollkorn", serif;
+  --title-text-color: #ff5d28;
+  --main-text-color: #4b566a;
+  --secondary-text-color: #82868f;
+  --tertiary-text-color: #9b9ea4;
+  --accent-text-color: rgba(255, 255, 255, 0.66);
+  --home-link-text-color: rgba(247, 246, 242, 0.62);
+  --link-text-color: rgba(247, 246, 242, 0.85);
+  --placeholder-text-color: rgba(130, 134, 143, 0.54);
+  --button-font: "Arial", sans-serif;
+  --button-background-color: rgb(255, 93, 40);
+  --button-light-text-color: rgb(255, 255, 255);
+  --button-dark-text-color: rgb(75, 86, 106);
+  --button-accent-text-color: rgb(255, 93, 40);
+  --navigation-text-color: rgb(166, 58, 24);
+  --background-color: rgb(247, 246, 242);
+  --background-color-white: rgb(255, 255, 255);
+  --scroll-behavior: smooth;
+  --box-shadow-color: rgb(130 134 143 / 30%);
+  font-family: var(--primary-font);
+  background-color: var(--background-color);
+}
+

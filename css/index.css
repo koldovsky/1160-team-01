@@ -1,4 +1,8 @@
 @import "global.css";
 @import "common.header.css";
-@import "common.footer.css";
 @import "index.header-hero.css";
+@import "index.about-us.css";
+@import "index.special-offers.css";
+@import "index.catering.css";
+@import "index.what-to-expect.css";
+@import "common.footer.css";

@@ -1,59 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://unpkg.com/htmx.org@1.9.10"
+      integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC"
+      crossorigin="anonymous"
+    ></script>
     <title>Document</title>
-</head>
-<body>
-    <main>
-        <section class="categories">
-            <div class="categories__container">
-                <h2 class="categories__heading_main">КАТЕГОРІЇ</h2>
-                <p class="categories_subheading">Різноманіття страв, щоб задовольнити будь-який смак</p>
-                <div class="categories__weird_icon"></div>
-                <p class="categories__special">Ми завжди маємо щось особливе для вас.</p>
+  </head>
 
-                <div class="categories__options-container">
-                    <div class="categories__options_item">
-                        <img src="img/categories/chicken-breast.jpg" alt="куряче філе"
-                            class="categories__options_img">
-                        <div class="categories__options_text">
-                            <a href="#" class="categories__options_link">Основні страви</a>
-                            <span class="categories__options_arrow"></span>
-                            <div class="categories__options_descr">Ми пропонуємо великий вибір риби та м'ясних страв.
-                            </div>
-                        </div>
-                    </div>
-                    <div class="categories__options_item">
-                        <img src="img/categories/avocado-toast.jpg" alt="авокадо тост"
-                            class="categories__options_img">
-                        <div class="categories__options_text">
-                            <a href="#" class="categories__options_link">Ланч та Вечеря</a>
-                            <span class="categories__options_arrow"></span>
-                            <div class="categories__options_descr">Свіжа паста, салати, тостові та багато іншого.</div>
-                        </div>
-                    </div>
-                    <div class="categories__options_item">
-                        <img src="img/categories/seafood-pasta.jpg" alt="паста" class="categories__options_img">
-                        <div class="categories__options_text">
-                            <a href="#" class="categories__options_link">Спеціальності Шефа</a>
-                            <span class="categories__options_arrow"></span>
-                            <div class="categories__options_descr">Спробуйте сезонне меню від нашого шеф-кухаря, обмежене за часом!</div>
-                        </div>
-                    </div>
-                </div>
-                <img src="img/categories/food-example.jpg" alt="пиршество" class="categories__options_img">
-                <div class="categories__button_pdf">Завантажити PDF</div>
-                <div class="categories_buttons"></div>
+  <body>
+    <section class="categories">
+      <div class="categories__container">
+        <h2 class="categories__heading_main">КАТЕГОРІЇ</h2>
+        <p class="categories_subheading">
+          Різноманіття страв, щоб задовольнити будь-який смак
+        </p>
+        <div class="categories__weird_icon"></div>
+        <p class="categories__special">
+          Ми завжди маємо щось особливе для вас.
+        </p>
 
-                <div class="categories__btn">
-                    <a href="#" class="categories__menu_btn">Повне меню</a>
-                    <a href="#" class="categories__download_btn">Завантажити PDF</a>
-                </div>
+        <div class="categories__options-container">
+          <div class="categories__options_item">
+            <img
+              src="img/categories/chicken-breast.jpg"
+              alt="куряче філе"
+              class="categories__options_img"
+            />
+            <div class="categories__options_text">
+              <a href="#" class="categories__options_link">Основні страви</a>
+              <span class="categories__options_arrow"></span>
+              <div class="categories__options_descr">
+                Ми пропонуємо великий вибір риби та м'ясних страв.
+              </div>
             </div>
-        </section>
-    </main>
-</body>
+          </div>
+          <div class="categories__options_item">
+            <img
+              src="img/categories/avocado-toast.jpg"
+              alt="авокадо тост"
+              class="categories__options_img"
+            />
+            <div class="categories__options_text">
+              <a href="#" class="categories__options_link">Ланч та Вечеря</a>
+              <span class="categories__options_arrow"></span>
+              <div class="categories__options_descr">
+                Свіжа паста, салати, тостові та багато іншого.
+              </div>
+            </div>
+          </div>
+          <div class="categories__options_item">
+            <img
+              src="img/categories/seafood-pasta.jpg"
+              alt="паста"
+              class="categories__options_img"
+            />
+            <div class="categories__options_text">
+              <a href="#" class="categories__options_link"
+                >Спеціальності Шефа</a
+              >
+              <span class="categories__options_arrow"></span>
+              <div class="categories__options_descr">
+                Спробуйте сезонне меню від нашого шеф-кухаря, обмежене за часом!
+              </div>
+            </div>
+          </div>
+        </div>
+        <img
+          src="img/categories/food-example.jpg"
+          alt="пиршество"
+          class="categories__options_img"
+        />
+        <div class="categories__button_pdf">Завантажити PDF</div>
+        <div class="categories_buttons"></div>
+
+        <div class="categories__btn">
+          <a href="#" class="categories__menu_btn">Full menu</a>
+          <a href="#" class="categories__download_btn">Download PD</a>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>

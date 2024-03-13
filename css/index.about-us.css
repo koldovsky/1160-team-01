@@ -1,0 +1,54 @@
+.index-about-us__aside-picture {
+    position: relative;
+  }
+  
+  .index-about-us__heading {
+    font-family: var(--primary-font);
+    font-size: 11px;
+    color: var(--title-text-color);
+    font-weight: 900;
+    text-align: left;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  
+  .index-about-us__name {
+    font-family: var(--secondary-font);
+    color: var(--main-text-color);
+    font-size: 34px;
+    font-weight: 400;
+    text-align: center;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  
+  .index-about-us__accessory-sign {
+    display: block;
+    margin: auto;
+    text-align: left;
+    width: 70px;
+  }
+  
+  .index-about-us__description-bold {
+    font-family: var(--primary-font);
+    font-size: 19px;
+    font-weight: 500;
+    text-align: left;
+    color: var(--sekondary-text-color);
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  
+  .index-about-us__description {
+    padding-right: 15px;
+    padding-left: 15px;
+    font-family: var(--primary-font);
+    color: var(--tertiary-text-color);
+    font-size: 17px;
+    font-weight: 400;
+    text-align: left;
+  }
+  
+  .index-about-us__button {
+  }
+  
