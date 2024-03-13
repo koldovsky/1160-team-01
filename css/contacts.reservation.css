@@ -82,6 +82,10 @@ img {
   margin-top: 60px;
   padding-top: 39px;
   padding-bottom: 39px;
+  border-radius: 6px;
+  border-color: var(--main-text-color);
+  box-sizing: border-box;
+  box-shadow: var(--sekondary-text-color);
 }
 
 .book__form-header {
