@@ -53,12 +53,13 @@ img {
     background-color: var(--background-color-white);
 }
 
-.book__form {
-    display: flex;
-    flex-direction: column;
-}
+/* .book__form { */
+    /* display: flex;
+    flex-direction: column; */
+/* } */
 
 .book__form-field {
+    display: block;
     background-color: var(--background-color); 
     color: var(--placeholder-text-color); 
     font-size: 16px; 
