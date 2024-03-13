@@ -1,131 +1,131 @@
 @import "global.css";
 
 body {
-    font-family: var(--primary-font);
-    font-weight: 400;
-    background-color: var(--background-color);
+  font-family: var(--primary-font);
+  font-weight: 400;
+  background-color: var(--background-color);
+}
+
+.book {
+    padding-top: 95px;
+    padding-bottom: 30;
 }
 
 .book__left {
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-
 .book__upper-text {
-    text-align: left;
-    font-size: 11px;
-    font-weight: 900;
-    letter-spacing: 1.1px;
-    color: var(--title-text-color);
-    text-transform: uppercase;
+  text-align: left;
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: 1.1px;
+  color: var(--title-text-color);
+  text-transform: uppercase;
 }
 
 .book__orange-delimiter {
-    width: 70px;
+  width: 70px;
 }
 
 .book__header {
-    text-align: left;
-    font-family: var(--secondary-font);
-    color: var(--main-text-color);
-    font-size: 34px;
-    font-weight: 400;
-    margin-top: 20px;
+  text-align: left;
+  font-family: var(--secondary-font);
+  color: var(--main-text-color);
+  font-size: 34px;
+  font-weight: 400;
+  margin-top: 20px;
 }
 
 .book__subtitle {
-    color: var(--sekondary-text-color);
-    font-size: 19px;
+  color: var(--sekondary-text-color);
+  font-size: 19px;
 }
 
 .book__text {
-    color: var(--tertiary-text-color);
-    font-size: 17px;
-    margin-top: 25px;
+  color: var(--tertiary-text-color);
+  font-size: 17px;
+  margin-top: 25px;
 }
 
 img {
-    width: 50px;
-    height: 50px;
+  width: 50px;
+  height: 50px;
 }
 
 .book__li {
-    display: flex;
-    margin-top: 20px;
+  display: flex;
+  margin-top: 20px;
 }
 
 .book__li-img {
-    margin: 7.5px;
+  margin: 7.5px;
 }
 
 .book_li-content {
-    width: auto;
-    margin: 7.5px;
+  width: auto;
+  margin: 7.5px;
 }
 
 .book__li-content-header {
-    font-family: var(--secondary-font);
-    color: var(--main-text-color);
-    font-size: 22px;
+  font-family: var(--secondary-font);
+  color: var(--main-text-color);
+  font-size: 22px;
 }
-
 
 .book__right {
-    background-color: var(--background-color-white);
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 60px;
-    padding-top: 39px;
-    padding-bottom: 39px;
+  background-color: var(--background-color-white);
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+  padding-top: 39px;
+  padding-bottom: 39px;
 }
 
-
 .book__form-header {
-    text-align: center;
-    font-family: var(--secondary-font);
-    color: var(--main-text-color);
-    font-size: 34px;
-    font-weight: 400;
+  text-align: center;
+  font-family: var(--secondary-font);
+  color: var(--main-text-color);
+  font-size: 34px;
+  font-weight: 400;
 }
 
 .book__form-orange-delimiter {
-    width: 70px;
-    margin-left: auto;
-    margin-right: auto;
+  width: 70px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .book__form-field {
-    display: block;
-    background-color: var(--background-color); 
-    color: var(--placeholder-text-color); 
-    font-size: 16px; 
-    padding: 14px 20px; 
-    border: none; 
-    border-radius: 25px; 
-    cursor: text;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 24px;
-
-
+  display: block;
+  background-color: var(--background-color);
+  color: var(--placeholder-text-color);
+  font-size: 16px;
+  padding: 14px 20px;
+  border: none;
+  border-radius: 25px;
+  cursor: text;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 24px;
 }
 
 .book__form-button {
-    display: block;
-    background-color: var(--button-background-color); 
-    color: var(--button-light-text-color); 
-    font-size: 16px; 
-    font-weight: 600;
-    padding: 14px 20px; 
-    border: none; 
-    border-radius: 25px; 
-    cursor: pointer;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 52px;
+  display: block;
+  background-color: var(--button-background-color);
+  color: var(--button-light-text-color);
+  font-size: 16px;
+  font-weight: 600;
+  padding: 14px 20px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 52px;
 }
