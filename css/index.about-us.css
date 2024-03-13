@@ -1,3 +1,8 @@
+.index-about-us__background {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
 .index-about-us__aside-picture {
   position: relative;
 }
@@ -30,7 +35,7 @@
   font-size: 19px;
   font-weight: 500;
   text-align: left;
-  color: var(--sekondary-text-color);
+  color: var(--secondary-text-color);
   padding-right: 15px;
   padding-left: 15px;
 }
