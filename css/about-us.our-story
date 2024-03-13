@@ -1,1 +1,45 @@
 
+.story {
+    font-family: "Vollkorn", serif;
+    font-weight: 700;
+}
+.story__container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.story__topic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.story__dates {
+    display: flex;
+    justify-content: space-between;
+}
+.story__dates-item {
+    flex: 0 1 20%;
+    text-align: center;
+}
+.story__dates-item-title {
+}
+.story__dates-item-subtitle {
+}
+.story__media iframe {
+    width: 100%;
+    height: 600px;
+}
+.story__list {
+    display: flex;
+    justify-content: space-between;
+}
+.story__list-left {
+    flex: 0 1 40%;
+}
+.story__list-item {
+
+}
+.story__list-right {
+    flex: 0 1 40%;
+}
