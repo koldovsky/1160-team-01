@@ -134,3 +134,12 @@ img {
   margin-right: auto;
   margin-top: 52px;
 }
+
+::placeholder {
+    color: var(--placeholder-text-color);
+    opacity: 1; /* Firefox */
+}
+  
+::-ms-input-placeholder { /* Edge 12-18 */
+    color: var(--placeholder-text-color);
+}
