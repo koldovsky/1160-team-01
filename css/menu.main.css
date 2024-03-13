@@ -1,32 +1,32 @@
 .menu__section-heading{
     font-size: 11px;
     font-family: "Roboto", sans-serif;
-    color: #ff5d28;
+    color: var(--title-text-color)
 }
 
 .item__name__heading{
     font-size: 34px;
     font-family: "Vollkorn", serif;
-    color: #4b566a;
+    color: var(--main-text-color);
 }
 
 .item__name{
     font-weight: normal;
     font-size: 22px;
     font-family: "Vollkorn", serif;
-    color: #4b566a;
+    color: var(--main-text-color);
 }
 .item__description{
     font-size: 17px;
     font-family: "Roboto", sans-serif;
-    color: #9b9ea4;
+    color:var(--tertiary-text-color);
 }
 
 .item__price{
     font-weight: bold;   
     font-size: 20px;
     font-family: "Roboto", sans-serif;
-    color: #ff5d28;
+    color:var(--title-text-color);
 }
 
 .img__decor{
