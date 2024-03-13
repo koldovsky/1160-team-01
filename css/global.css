@@ -24,5 +24,9 @@
   --navigation-text-color: rgb(166, 58, 24);
   --background-color: rgb(247, 246, 242);
   --scroll-behavior: smooth;
+
+  --footer-underline-color: #ff5d28;
+  --footer-divider-underline-color: #e6e5e1;
+
   
 }
