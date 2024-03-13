@@ -1,0 +1,20 @@
+.first-paragraph {
+    color:#ff5d28;
+    font-family: "Roboto", sans-serif;
+    font-size: 11px;
+}
+.second-paragraph {
+    color:grey;
+    font-family: "Roboto", sans-serif;
+    font-size: 19px;
+}
+h3 {
+    color:white;
+    font-family: "Vollkorn", serif;
+    font-size: 38px;
+}
+.menu__serve-links button {
+    color:white;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+}
