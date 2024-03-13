@@ -32,6 +32,7 @@ body {
     color: var(--main-text-color);
     font-size: 34px;
     font-weight: 400;
+    margin-top: 20px;
 }
 
 .book__subtitle {
