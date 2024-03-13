@@ -14,7 +14,7 @@ body {
 
 
 .book__upper-text {
-    text-align: center;
+    text-align: left;
     font-size: 11px;
     font-weight: 900;
     letter-spacing: 1.1px;
@@ -52,9 +52,17 @@ img {
     width: 100%;
 }
 
+.book__li {
+    display: flex;
+}
+
 .book__li-img {
     width: 50px;
     height: 50px;
+}
+
+.book_li-content {
+    width: auto;
 }
 
 .book__li-content-header {
@@ -63,9 +71,6 @@ img {
     font-size: 22px;
 }
 
-.book__li {
-    display: flex;
-}
 
 .book__right {
     background-color: var(--background-color-white);
