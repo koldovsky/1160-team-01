@@ -47,7 +47,6 @@ body {
 .book__text {
   color: var(--tertiary-text-color);
   font-size: 17px;
-  margin-top: 25px;
 }
 
 img {
