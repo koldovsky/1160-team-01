@@ -3,7 +3,6 @@
   padding-right: 15px;
   padding-left: 15px;
 }
-
 .what-to-expect__heading {
   font-family: var(--primary-font);
   font-size: 11px;
@@ -13,7 +12,6 @@
   padding-right: 15px;
   padding-left: 15px;
 }
-
 .what-to-expect__name {
   font-family: var(--secondary-font);
   color: var(--main-text-color);
@@ -23,14 +21,12 @@
   padding-right: 15px;
   padding-left: 15px;
 }
-
 .what-to-expect__accessory-img {
   display: block;
   margin: auto;
   text-align: center;
   width: 70px;
 }
-
 .what-to-expect__description {
   font-family: var(--primary-font);
   font-size: 19px;
@@ -40,11 +36,9 @@
   padding-right: 15px;
   padding-left: 15px;
 }
-
 .what-to-expect__unit {
   width: 272px;
 }
-
 .what-to-expect__icon {
   display: block;
   position: relative;
@@ -53,7 +47,6 @@
   padding-right: 15px;
   padding-left: 15px;
 }
-
 .what-to-expect__item {
   font-family: var(--secondary-font);
   color: var(--main-text-color);
@@ -63,7 +56,6 @@
   padding-right: 15px;
   padding-left: 15px;
 }
-
 .what-to-expect__item-description {
   padding-right: 15px;
   padding-left: 15px;
