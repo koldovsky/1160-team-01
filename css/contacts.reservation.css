@@ -51,15 +51,16 @@ img {
 
 .book__li {
     display: flex;
+    margin-top: 20px;
 }
 
-/* .book__li-img {
-    width: 50px;
-    height: 50px;
-} */
+.book__li-img {
+    margin: 7.5px;
+}
 
 .book_li-content {
     width: auto;
+    margin: 7.5px;
 }
 
 .book__li-content-header {
