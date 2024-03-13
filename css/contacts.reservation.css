@@ -49,17 +49,18 @@ body {
 }
 
 img {
-    width: 100%;
+    width: 50px;
+    height: 50px;
 }
 
 .book__li {
     display: flex;
 }
 
-.book__li-img {
+/* .book__li-img {
     width: 50px;
     height: 50px;
-}
+} */
 
 .book_li-content {
     width: auto;
