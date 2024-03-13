@@ -24,18 +24,14 @@ body {
 
 .book__orange-delimiter {
     width: 70px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .book__header {
-    text-align: center;
+    text-align: left;
     font-family: var(--secondary-font);
     color: var(--main-text-color);
     font-size: 34px;
     font-weight: 400;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .book__subtitle {
@@ -83,10 +79,20 @@ img {
     padding-bottom: 39px;
 }
 
-/* .book__form { */
-    /* display: flex;
-    flex-direction: column; */
-/* } */
+
+.book__form-header {
+    text-align: center;
+    font-family: var(--secondary-font);
+    color: var(--main-text-color);
+    font-size: 34px;
+    font-weight: 400;
+}
+
+.book__form-orange-delimiter {
+    width: 70px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .book__form-field {
     display: block;
