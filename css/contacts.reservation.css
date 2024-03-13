@@ -74,3 +74,20 @@ img {
     top: 90px;
     margin-left: 20px;
 }
+
+.book__form-button {
+    display: block;
+    background-color: var(--button-background-color); 
+    color: var(--button-light-text-color); 
+    font-size: 16px; 
+    font-weight: 600;
+    padding: 14px 20px; 
+    border: none; 
+    border-radius: 25px; 
+    cursor: text;
+    text-decoration: none; 
+    transition: 0.3s; 
+    position: relative;
+    top: 90px;
+    margin-left: 20px;
+}
