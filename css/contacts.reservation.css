@@ -43,6 +43,7 @@ body {
 .book__subtitle {
   color: var(--sekondary-text-color);
   font-size: 19px;
+  margin-bottom: 25px;
 }
 
 .book__text {
