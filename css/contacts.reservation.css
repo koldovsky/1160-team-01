@@ -51,6 +51,7 @@ img {
 
 .book__right {
     background-color: var(--background-color-white);
+    width: 90%;
 }
 
 /* .book__form { */
