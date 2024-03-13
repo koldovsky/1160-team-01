@@ -25,6 +25,7 @@ body {
     font-family: var(--secondary-font);
     color: var(--main-text-color);
     font-size: 34px;
+    font-weight: 400;
     margin-left: auto;
     margin-right: auto;
 }
@@ -78,8 +79,8 @@ img {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 12px;
+
 }
 
 .book__form-button {
@@ -95,6 +96,5 @@ img {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 12px;
 }
