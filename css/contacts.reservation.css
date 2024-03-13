@@ -55,11 +55,16 @@ img {
     font-size: 22px;
 }
 
+.book__li {
+    display: flex;
+}
+
 .book__right {
     background-color: var(--background-color-white);
     width: 90%;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 60px;
     padding-top: 39px;
     padding-bottom: 39px;
 }
