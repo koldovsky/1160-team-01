@@ -110,6 +110,7 @@ img {
   padding: 14px 20px;
   border: none;
   border-radius: 25px;
+  border-top-left-radius: 6px;
   cursor: text;
   width: 80%;
   margin-left: auto;
@@ -126,6 +127,7 @@ img {
   padding: 14px 20px;
   border: none;
   border-radius: 25px;
+  border-top-left-radius: 6px;
   cursor: pointer;
   width: 80%;
   margin-left: auto;
