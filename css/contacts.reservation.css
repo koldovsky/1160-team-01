@@ -16,12 +16,16 @@ body {
 
 .book__orange-delimiter {
     width: 70px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .book__header {
     font-family: var(--secondary-font);
     color: var(--main-text-color);
     font-size: 34px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .book__subtitle {
@@ -70,9 +74,7 @@ img {
     border: none; 
     border-radius: 25px; 
     cursor: text;
-    text-decoration: none; 
-    transition: 0.3s; 
-    position: relative;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -86,10 +88,8 @@ img {
     padding: 14px 20px; 
     border: none; 
     border-radius: 25px; 
-    cursor: text;
-    text-decoration: none; 
-    transition: 0.3s; 
-    position: relative;
-    top: 90px;
-    margin-left: 20px;
+    cursor: pointer;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
