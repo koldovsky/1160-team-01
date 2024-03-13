@@ -32,9 +32,19 @@
 
     <main>
       <section
+      data-hx-trigger="load"
+      data-hx-swap="outerHTML"
+      data-hx-get="about-us.our-story.partial.html"
+    ></section>
+      <section
         data-hx-trigger="load"
         data-hx-swap="outerHTML"
         data-hx-get="about-us.description.partial.html"
+      ></section>
+      <section
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="about-us.our-team.partial.html"
       ></section>
     </main>
 
