@@ -143,3 +143,9 @@ img {
 ::-ms-input-placeholder { /* Edge 12-18 */
     color: var(--placeholder-text-color);
 }
+
+@media (min-width: 768px) {
+  .book {
+    display: flex;
+  }
+}
