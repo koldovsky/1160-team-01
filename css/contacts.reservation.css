@@ -85,7 +85,7 @@ img {
   border-radius: 6px;
   border-color: var(--main-text-color);
   box-sizing: border-box;
-  box-shadow: var(--sekondary-text-color);
+  box-shadow: 0.1em 0.1em 1em rgb(130 134 143 / 50%);
 }
 
 .book__form-header {
