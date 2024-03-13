@@ -16,6 +16,7 @@ body {
   padding-right: 20px;
   margin-left: auto;
   margin-right: auto;
+  width: 50%;
 }
 
 .book__upper-text {
@@ -88,6 +89,7 @@ img {
   border-color: var(--main-text-color);
   box-sizing: border-box;
   box-shadow: 0.1em 0.1em 1em var(--box-shadow-color);
+  width: 50%;
 }
 
 .book__form-header {
