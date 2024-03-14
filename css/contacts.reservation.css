@@ -42,7 +42,7 @@
 }
 
 .book__subtitle {
-  color: var(--sekondary-text-color);
+  color: var(--secondary-text-color);
   font-size: 19px;
   margin-bottom: 25px;
 }
