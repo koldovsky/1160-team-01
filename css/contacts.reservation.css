@@ -1,7 +1,13 @@
+@import "global.css";
+
+
 .book {
+    font-family: var(--primary-font);
+    background-color: var(--background-color);
     padding-top: 95px;
     padding-bottom: 30px;
     max-width: 1200px;
+    min-width: 320px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -142,6 +148,16 @@
     color: var(--placeholder-text-color);
 }
 
+.book__select {
+  background: url(../img/contacts/dropdown-arrow.png);
+  background-color: var(--background-color);
+  background-position: 95% 50%;
+  background-repeat: no-repeat;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
 @media (min-width: 768px) {
   .book {
     display: flex;
@@ -151,6 +167,6 @@
   }
   .book__right {
     width: 50%;
-    margin-top: 0px;
+    margin-top: 0;
   }
 }
