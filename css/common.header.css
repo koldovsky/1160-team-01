@@ -1,0 +1,15 @@
+.header__nav{
+    background-color: var(--background-color);
+    height: 75px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0;
+    gap: 6px;
+}
+
+.header__logo-container img{
+    width: 115px;
+    height: 40px;
+}
