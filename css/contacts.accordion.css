@@ -5,6 +5,8 @@
 
     .accordion-flush {
         width: 50%;
+        margin-left: 30px;
+        margin-right: 30px;
     }
   }
 
