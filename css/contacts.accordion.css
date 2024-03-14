@@ -70,7 +70,7 @@
 }
 .accordion-item {
   background-color: var(--background-color);
-  border: 1px solid var(--main-text-color);
+  border: 1px solid var(--tertiary-text-color);
 }
 .accordion-item:first-of-type {
   border-top-left-radius: 0.25rem;
@@ -112,9 +112,9 @@
 .accordion-flush .accordion-item:first-child {
   border-top: 0;
 }
-/* .accordion-flush .accordion-item:last-child {
-  border-bottom: 0;
-} */
+.accordion-flush .accordion-item:last-child {
+  border-bottom: 1px solid var(--tertiary-text-color);
+}
 .accordion-flush .accordion-item .accordion-button {
   border-radius: 0;
 }
