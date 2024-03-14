@@ -2,6 +2,10 @@
     .accordion-wrapper {
         display: flex;
     }
+
+    .accordion-flush {
+        width: 50%;
+    }
   }
 
 
