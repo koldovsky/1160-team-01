@@ -150,8 +150,8 @@
 .book__select {
   background: url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png);
   background-color: var(--button-background-color);
-  background-position: right .7em top 50%, 0 0;
-  background-repeat: no-repeat, repeat;
+  background-position: 95% 50%;
+  background-repeat: no-repeat;
   -moz-appearance: none;
   -webkit-appearance: none;
   appearance: none;
