@@ -22,6 +22,7 @@
   color: var(--main-text-color);
   text-align: left;
   background-color: var(--background-color);
+  border-color: var(--tertiary-text-color);
 
 }
 @media (prefers-reduced-motion: reduce) {
