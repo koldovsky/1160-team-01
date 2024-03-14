@@ -61,7 +61,7 @@
 }
 .accordion-button:focus {
   z-index: 3;
-  border-color: var(--main-text-color);
+  border-color: var(--tertiary-text-color);
   outline: 0;
   box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0);
 }
@@ -112,9 +112,9 @@
 .accordion-flush .accordion-item:first-child {
   border-top: 0;
 }
-.accordion-flush .accordion-item:last-child {
+/* .accordion-flush .accordion-item:last-child {
   border-bottom: 0;
-}
+} */
 .accordion-flush .accordion-item .accordion-button {
   border-radius: 0;
 }
