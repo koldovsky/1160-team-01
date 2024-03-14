@@ -1,4 +1,9 @@
+@import "global.css";
+
+
 .book {
+    font-family: var(--primary-font);
+    background-color: var(--background-color);
     padding-top: 95px;
     padding-bottom: 30px;
     max-width: 1200px;
