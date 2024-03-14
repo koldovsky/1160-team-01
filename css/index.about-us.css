@@ -1,9 +1,8 @@
-.index-about-us__background {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
+.index-about-us {
+  background-image: url(../img/about-us-on-main-page/back-passion-for-food-picture.png);
 }
 .index-about-us__aside-picture {
+  width: 272px;
   position: relative;
 }
 .index-about-us__heading {
