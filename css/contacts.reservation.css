@@ -147,6 +147,13 @@
     color: var(--placeholder-text-color);
 }
 
+.book__select {
+  background: url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png) no-repeat right #ddd;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
 @media (min-width: 768px) {
   .book {
     display: flex;
