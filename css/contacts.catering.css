@@ -58,7 +58,7 @@
 }
 
 .catering__li {
-  /* display: flex; */
+  display: flex;
   margin-top: 20px;
 }
 
@@ -77,20 +77,6 @@
   font-size: 22px;
 }
 
-.catering__right {
-  background-color: var(--background-color-white);
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-left: 30px;
-  margin-right: 32px;
-  margin-top: 60px;
-  padding-top: 39px;
-  padding-bottom: 39px;
-  border-radius: 6px;
-  border-color: var(--main-text-color);
-  box-sizing: border-box;
-  box-shadow: 0.1em 0.1em 1em var(--box-shadow-color);
-}
 
 .catering__dot {
     color: var(--title-text-color);
