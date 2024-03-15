@@ -2,6 +2,8 @@
 
 .accordion-wrapper {
   background-color: var(--background-color);
+  padding-left: 32px;
+  padding-right: 30px;
 }
 
 .accordion-button {
