@@ -1,6 +1,3 @@
-@import "global.css";
-
-
 .catering {
   font-family: var(--primary-font);
   background-color: var(--background-color);
@@ -35,7 +32,6 @@
 
 .catering__orange-delimiter {
     width: 70px;
-    min-width: 70px;
     max-width: 100px;
 }
 
@@ -86,7 +82,7 @@
   .catering__column {
     width: 50%;
   }
-  .catering__li-img img {
+  .catering__article-img img {
     width: 70px;
     height: 70px;
   }
