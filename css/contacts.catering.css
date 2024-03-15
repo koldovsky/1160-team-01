@@ -19,6 +19,11 @@
   margin-right: auto;
 }
 
+.catering__ul {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
 .catering__header {
   text-align: left;
   font-family: var(--secondary-font);
