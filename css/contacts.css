@@ -5,3 +5,7 @@
 @import "contacts.catering.css";
 @import "common.footer.css";
 
+.contacts {
+    background-color: var(--background-color);
+}
+
