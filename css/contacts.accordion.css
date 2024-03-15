@@ -13,10 +13,7 @@
   color: var(--main-text-color);
   background-color: var(--background-color);
   border-color: var(--tertiary-text-color);
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  padding-left: 0;
-  padding-right: 1.35rem;
+  padding: 1rem 0;
 }
 
 .accordion-button:not(.collapsed) {
@@ -44,7 +41,7 @@
 }
 
 .accordion-body {
-  padding: 1rem 1.25rem;
+  padding: 1rem 0;
   font-family: var(--primary-font);
   color: var(--secondary-text-color);
   font-size: 17px;

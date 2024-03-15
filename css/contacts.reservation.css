@@ -2,14 +2,14 @@
 
 
 .book {
-    font-family: var(--primary-font);
-    background-color: var(--background-color);
-    padding-top: 95px;
-    padding-bottom: 30px;
-    max-width: 1200px;
-    min-width: 320px;
-    margin-left: auto;
-    margin-right: auto;
+  font-family: var(--primary-font);
+  background-color: var(--background-color);
+  padding-top: 95px;
+  padding-bottom: 30px;
+  max-width: 1200px;
+  min-width: 320px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .book__left {
@@ -168,5 +168,9 @@
   .book__right {
     width: 50%;
     margin-top: 0;
+  }
+  .book__li-img img {
+    width: 70px;
+    height: 70px;
   }
 }
