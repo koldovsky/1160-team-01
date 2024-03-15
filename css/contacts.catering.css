@@ -38,10 +38,10 @@
   height: 50px;
 }
 
-/* .catering__li {
+.catering__li {
   display: flex;
-  margin-top: 20px;
-} */
+  margin-top: 0;
+}
 
 .catering__article {
     display: flex;
