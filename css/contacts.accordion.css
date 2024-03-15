@@ -58,11 +58,10 @@
 @media (min-width: 768px) {
   .accordion-wrapper {
     display: flex;
+    gap: 30px;
   }
 
   .accordion-flush {
     width: 50%;
-    margin-left: 15px;
-    margin-right: 15px;
   }
 }
