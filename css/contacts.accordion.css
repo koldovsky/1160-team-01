@@ -13,6 +13,10 @@
   color: var(--main-text-color);
   background-color: var(--background-color);
   border-color: var(--tertiary-text-color);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 0;
+  padding-right: 1.35rem;
 }
 
 .accordion-button:not(.collapsed) {
