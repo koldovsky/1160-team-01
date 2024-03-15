@@ -58,7 +58,7 @@
 }
 
 .catering__li {
-  display: flex;
+  display: inline;
   margin-top: 20px;
 }
 
