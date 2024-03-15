@@ -29,6 +29,7 @@
 .accordion-button:focus {
   border-color: var(--tertiary-text-color);
   box-shadow: 0;
+  flex-shrink: unset;
 }
 
 .accordion-item {
