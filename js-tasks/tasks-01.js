@@ -1,6 +1,6 @@
-// https://www.codewars.com/kata/53ee5429ba190077850011d4/train/javascript
+// Messi goals
+// https://www.codewars.com/kata/grasshopper-messi-goals-function/train/javascript
 
-function doubleInteger(num) {
-  return num * 2;
+function goals(laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
+  return laLigaGoals + copaDelReyGoals + championsLeagueGoals;
 }
-
