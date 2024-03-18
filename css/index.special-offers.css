@@ -38,7 +38,7 @@
 
 .text-under-title {
   font-size: 19px;
-  color: var(--sekondary-text-color);
+  color: var(--secondary-text-color);
   font-family: var(--primary-font);
   position: relative;
   margin: auto;
@@ -106,7 +106,7 @@
 
 .top-title {
   font-size: 14px;
-  color: var(--sekondary-text-color);
+  color: var(--secondary-text-color);
   font-family: var(--primary-font);
   font-style: italic;
   text-align: left;
@@ -119,7 +119,7 @@
 
 .block-title {
   font-size: 22px;
-  color: var(--sekondary-text-color);
+  color: var(--secondary-text-color);
   font-family: var(--secondary-font);
   text-align: left;
   width: fit-content;

@@ -5,17 +5,15 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 img {
   display: block;
   width: 100%;
 }
-
 :root {
   --primary-font: "Roboto", sans-serif;
   --secondary-font: "Vollkorn", serif;
   --title-text-color: #ff5d28;
-  --main-text-color: #4b566a;
+  --main-text-color: rgb(75, 86, 106);
   --secondary-text-color: #82868f;
   --tertiary-text-color: #9b9ea4;
   --accent-text-color: rgba(255, 255, 255, 0.66);

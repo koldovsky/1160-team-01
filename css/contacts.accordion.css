@@ -1,0 +1,65 @@
+.accordion-wrapper {
+  background-color: var(--background-color);
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+  min-width: 320px;
+  padding-top: 40px;
+  padding-left: 32px;
+  padding-right: 30px;
+}
+
+.accordion-button {
+  font-family: var(--primary-font);
+  font-size: 19px;
+  color: var(--main-text-color);
+  background-color: var(--background-color);
+  border-color: var(--tertiary-text-color);
+  padding: 1rem 0;
+}
+
+.accordion-button:not(.collapsed) {
+  color: var(--main-text-color);
+  background-color: var(--background-color);
+  box-shadow: 0;
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="%23888888" stroke-width="2" stroke-linecap="round" stroke-linejoin="arcs"><line x1="2" y1="10" x2="18" y2="10"></line></svg>');
+}
+
+.accordion-button::after {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="%23888888" stroke-width="2" stroke-linecap="round" stroke-linejoin="arcs"><line x1="10" y1="2" x2="10" y2="18"></line><line x1="2" y1="10" x2="18" y2="10"></line></svg>');
+}
+
+.accordion-button:focus {
+  border-color: var(--tertiary-text-color);
+  box-shadow: none;
+}
+
+.accordion-item {
+  background-color: var(--background-color);
+  border: 1px solid var(--tertiary-text-color);
+}
+
+.accordion-body {
+  padding: 1rem 0;
+  font-family: var(--primary-font);
+  color: var(--secondary-text-color);
+  font-size: 17px;
+}
+
+.accordion-flush .accordion-item:last-child {
+  border-bottom: 1px solid var(--tertiary-text-color);
+}
+
+@media (min-width: 768px) {
+  .accordion-wrapper {
+    display: flex;
+    gap: 30px;
+  }
+
+  .accordion-flush {
+    width: 50%;
+  }
+}
