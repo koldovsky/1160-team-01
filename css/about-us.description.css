@@ -1,7 +1,7 @@
 .description {
 	display: flex;
 	justify-content: space-between;
-    padding: 120px 0;
+	flex-direction: column;
 }
 
 .description__image {
@@ -9,9 +9,27 @@
     background-size: cover;
 	background-repeat: no-repeat;
 	width: 100%;
-	flex: 0 1 48%;
+	min-height: calc(var(--index) * 16);
 }
 
-.description__content {
-    flex: 0 1 50%;
+.description__content-container {
+	max-width: 570px;
+	margin: 0 auto;
 }
+
+
+@media only screen and (min-width: 768px) {
+	.description {
+		flex-direction: row;
+		gap: 20px;
+	}
+	.description__image {
+		flex: 0 1 50%;
+	}
+	.description__content {
+		flex: 0 1 50%;
+	}
+  }
+  
+  @media only screen and (min-width: 991px) {
+  }

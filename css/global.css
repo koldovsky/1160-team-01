@@ -28,19 +28,28 @@ img {
   --navigation-text-color: rgb(166, 58, 24);
   --background-color: rgb(247, 246, 242);
   --background-color-white: rgb(255, 255, 255);
+  --carousel-card-button-arrow-font-size: 21px;
   --carousel-card-title-font-size: 17px;
   --carousel-card-subtitle-font-size: 15px;
   --carousel-card-title-line-heigth: 25px;
   --carousel-card-subtitle-line-heigth: 20px;
+  --about-us-topic-title-font-size: 11px;
+  --about-us-title-font-size-secondary: 26px;
+  --about-us-topic-subtitle-font-size: 42px;
+  --about-us-topic-text-font-size: 19px;
+  --about-us-main-font-size: 16px;
   --about-us-title-line-heigth-primary: 15px;
   --about-us-subtitle-line-heigth-primary: 50px;
+  --about-us-main-line-heigth: 32px;
   --about-us-title-line-heigth-secondary: 33px;
   --about-us-subtitle-line-heigth-secondary: 25px;
   --about-us-title-color-light: rgb(255, 255, 255);
   --about-us-text-color-light: rgba(247, 246, 242, 0.85);
   --scroll-behavior: smooth;
   --box-shadow-color: rgb(130 134 143 / 30%);
+  --index: calc(1vw + 1vh);
   font-family: var(--primary-font);
   background-color: var(--background-color);
+  
 }
 

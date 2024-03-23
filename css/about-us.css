@@ -1,6 +1,7 @@
 @import "global.css";
 @import "common.header.css";
 @import "about-us.header-hero.css";
-@import "about-us.our-story";
+@import "about-us.our-story.css";
 @import "about-us.description.css";
 @import "about-us.our-team.css";
+@import "controls.css";

@@ -1,6 +1,7 @@
 .story {
     font-family: "Vollkorn", serif;
     font-weight: 700;
+    padding: 120px 0;
 }
 .story__container {
     max-width: 1200px;
