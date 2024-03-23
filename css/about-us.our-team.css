@@ -74,7 +74,7 @@
   top: 50%;
   font-size: var(--carousel-card-button-arrow-font-size);
   background: none;
-  color: var( --button-light-text-color);
+  color: var(--button-light-text-color);
 }
 
 .ourteam__slider-button:hover {

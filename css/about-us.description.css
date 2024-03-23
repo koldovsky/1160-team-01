@@ -1,35 +1,85 @@
 .description {
-	display: flex;
-	justify-content: space-between;
-	flex-direction: column;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  color: var(--tertiary-text-color);
+  background-color: var(--background-color-white);
+}
+
+.description ul {
+  list-style: none;
 }
 
 .description__image {
-    background-image: url("../img/about-us-description/descriptionimage.webp");
-    background-size: cover;
-	background-repeat: no-repeat;
-	width: 100%;
-	min-height: calc(var(--index) * 16);
+  background-image: url("../img/about-us-description/descriptionimage.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: calc(var(--index) * 16);
 }
 
 .description__content-container {
-	max-width: 570px;
-	margin: 0 auto;
+  max-width: 570px;
+  margin: 0 auto;
+  padding: 90px 30px;
 }
 
-
 @media only screen and (min-width: 768px) {
-	.description {
-		flex-direction: row;
-		gap: 20px;
-	}
-	.description__image {
-		flex: 0 1 50%;
-	}
-	.description__content {
-		flex: 0 1 50%;
-	}
+  .description {
+    flex-direction: row;
+    gap: 20px;
   }
-  
-  @media only screen and (min-width: 991px) {
+  .description__image {
+    flex: 0 1 50%;
   }
+  .description__content {
+    flex: 0 1 50%;
+  }
+}
+
+@media only screen and (min-width: 991px) {
+}
+
+.description__content-topic-title {
+  font-size: var(--about-us-topic-title-font-size);
+  line-height: var(--about-us-title-line-heigth-primary);
+  color: var(--title-text-color);
+  text-transform: uppercase;
+}
+
+.description__content-topic-subtitle {
+  font-size: var(--about-us-topic-subtitle-font-size);
+  line-height: var(--about-us-subtitle-line-heigth-primary);
+  color: var(--main-text-color);
+  font-family: var(--secondary-font);
+}
+
+.description__content-topic-decoration {
+  max-width: 70px;
+}
+
+.description__content-text-title {
+  font-size: var(--about-us-topic-text-font-size);
+  line-height: var(--about-us-subtitle-line-heigth-secondary);
+  color: var(--secondary-text-color);
+}
+
+.description__content-text-subtitle {
+  line-height: var(--about-us-subtitle-line-heigth-secondary);
+  margin: 15px 0;
+}
+
+.description__content-list-item {
+  position: relative;
+  padding-left: 30px;
+  margin: 15px 0;
+}
+
+.description__content-list-item::before {
+  content: url("../img/about-us-description/listdecoration.svg");
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 24px;
+  width: 20px;
+}

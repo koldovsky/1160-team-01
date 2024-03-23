@@ -1,40 +1,50 @@
 .story {
-    font-family: "Vollkorn", serif;
-    font-weight: 700;
-    padding: 120px 0;
+  font-family: "Vollkorn", serif;
+  font-weight: 700;
+  padding: 120px 0;
 }
 .story__container {
-    max-width: 1200px;
-    margin: 0 auto;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .story__topic {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .story__dates {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .story__dates-item {
-    flex: 0 1 20%;
-    text-align: center;
+  flex: 0 1 20%;
+  text-align: center;
 }
 
 .story__media iframe {
-    width: 100%;
-    height: 600px;
+  width: 100%;
+  height: 600px;
 }
 .story__list {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 .story__list-left {
-    flex: 0 1 40%;
+  flex: 0 1 40%;
 }
 
 .story__list-right {
-    flex: 0 1 40%;
+  flex: 0 1 40%;
+}
+
+@media only screen and (min-width: 768px) {
+  .story__dates {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+  }
 }
