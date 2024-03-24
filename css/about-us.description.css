@@ -14,12 +14,13 @@
   background-image: url("../img/about-us-description/descriptionimage.webp");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   width: 100%;
   min-height: calc(var(--index) * 16);
 }
 
 .description__content-container {
-  max-width: 570px;
+  max-width: 590px;
   margin: 0 auto;
   padding: 90px 30px;
 }
@@ -37,9 +38,6 @@
   }
 }
 
-@media only screen and (min-width: 991px) {
-}
-
 .description__content-topic-title {
   font-size: var(--about-us-topic-title-font-size);
   line-height: var(--about-us-title-line-heigth-primary);
@@ -52,6 +50,7 @@
   line-height: var(--about-us-subtitle-line-heigth-primary);
   color: var(--main-text-color);
   font-family: var(--secondary-font);
+  margin: 20px 0 0 0;
 }
 
 .description__content-topic-decoration {
@@ -62,6 +61,8 @@
   font-size: var(--about-us-topic-text-font-size);
   line-height: var(--about-us-subtitle-line-heigth-secondary);
   color: var(--secondary-text-color);
+  font-weight: bold;
+  margin: 15px 0;
 }
 
 .description__content-text-subtitle {
@@ -72,7 +73,8 @@
 .description__content-list-item {
   position: relative;
   padding-left: 30px;
-  margin: 15px 0;
+  margin: 25px 0;
+  color: var(--secondary-text-color);
 }
 
 .description__content-list-item::before {
