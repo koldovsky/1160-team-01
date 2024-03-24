@@ -1,13 +1,30 @@
+.menu {
+    font-family: var(--primary-font);
+    background-color: var(--background-color);
+    padding-top: 95px;
+    padding-bottom: 30px;
+    max-width: 1200px;
+    min-width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .menu__section-heading{
+    text-align: left;
     font-size: 11px;
-    font-family: "Roboto", sans-serif;
-    color: var(--title-text-color)
+    font-weight: 900;
+    letter-spacing: 1.1px;
+    color: var(--title-text-color);
+    text-transform: uppercase;
 }
 
 .item__name__heading{
-    font-size: 34px;
-    font-family: "Vollkorn", serif;
+    text-align: left;
+    font-family: var(--secondary-font);
     color: var(--main-text-color);
+    font-size: 34px;
+    font-weight: 400;
+    margin-top: 20px;
 }
 
 .item__name{
