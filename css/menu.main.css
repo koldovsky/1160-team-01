@@ -9,20 +9,17 @@
     margin-right: auto;
 }
 
-.menu__section{
-    margin-left: 20px;
-    margin-right: 20px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+.menu__item{
+    padding: 0 30px;
 }
 
 .menu__section-heading{
-    text-align: left;
     font-size: 11px;
     font-weight: 900;
     letter-spacing: 1.1px;
     color: var(--title-text-color);
     text-transform: uppercase;
+    padding: 0 30px;
 }
 
 .item__name__heading{
@@ -73,6 +70,7 @@
     font-family: var(--secondary-font);
     color: var(--main-text-color);
     font-size: 22px;
+    padding: 0 30px;
 }
 
 @media(min-width: 768px){
@@ -85,4 +83,10 @@
 
 ul {
     list-style-type: none;
+}
+
+.item__name__price {
+    display: flex;
+    justify-content: space-between; /* Розміщуємо .item__name зліва і .item__price справа */
+    align-items: center; 
 }
