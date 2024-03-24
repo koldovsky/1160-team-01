@@ -142,21 +142,47 @@
 }
 
 .contacts__button {
-  background-color: var(--button-accent-text-color); 
-  color: var(--button-light-text-color); 
-  font-family: var(--button-font); 
-  font-size: 16px; 
-  font-weight: bold; 
-  padding: 14px 20px; 
-  border: none; 
-  border-radius: 25px; 
-  cursor: pointer;
-  text-decoration: none; 
-  transition: 0.3s; 
-  position: relative;
-  top: 90px;
-  margin-left: 20px;
-}
+    padding: 16px 42px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 12px -2px rgba(0,0,0,0.5);
+    line-height: 1.25;
+    background: #FC6E51;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    position: relative;
+    top: 80px;
+    left: 20px;
+    transition: background-color .6s ease;
+    overflow: hidden;
+    &:after {
+      content: "";
+      position: absolute;
+      width: 0;
+      height: 0;
+      top: 50%;
+      left: 50%;
+      top: calc(50% + 10px); 
+      left: calc(50% + 10px);
+      transform-style: flat;
+      transform: translate3d(-50%,-50%,0);
+      background: rgba(white,.1);
+      border-radius: 100%;
+      transition: width .3s ease, height .3s ease;
+    }
+    &:focus,
+    &:hover {
+        background: darken(#FC6E51,7%);
+    }
+    &:active {
+      &:after {
+        width: 300px;
+        height: 300px;
+      }
+    }
+  }
 
 .blocks-of-images {
   display: grid;
@@ -166,26 +192,70 @@
 }
 
 @media (min-width: 768px) {
+.blocks-of-images {
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  gap: 0px;
+  flex-wrap: wrap;
+}
+
+.images {
+  position: relative;
+}
+
+.special-offer-weekday,
+.special-offer-sweet,
+.discount {
+  display: flex;
+  flex-direction: column;
+  gap: 0px; 
+  align-items: center;
+}
+
+.white-block {
+  background-color: white;
+  padding: 20px;
+  width: 355.6px; 
+  height: 325.01px; 
+  margin-left: 0px;
+  margin-bottom: 0px;
+}
+
+.girls-img,
+.cocktail-img,
+.meal-img {
+  display: flex;
+  width: 355.6px;
+  height: 325.01px; 
+  margin-left: 25px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+}
+
+@media (min-width: 992px) {
   .blocks-of-images {
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    gap: 0px; 
+    grid-template-columns: 1fr 304px 1fr; 
+    gap: 0px;
   }
   
   .special-offer-weekday,
   .special-offer-sweet,
   .discount {
     display: grid;
-    grid-template-columns: auto 1fr; 
+    grid-template-columns: 1fr 1fr; 
     gap: 0px; 
     align-items: center;
+    width: 304px;
+    height: 437px;
   }
   
   .white-block {
     background-color: white;
-    padding: 20px;
-    width: 355.6px; 
-    height: 325.01px; 
+
+    width: 304px;
+    height: 437px; 
     margin-left: 0px;
     margin-bottom: 0px;
   }
@@ -193,44 +263,14 @@
   .girls-img,
   .cocktail-img,
   .meal-img {
-    width: 355.6px;
-    height: 325.01px; 
-    margin-left: 25px;
+    width: 304px; 
+    height: 437px; 
     margin-top: 0;
     margin-bottom: 0;
-  }
-}
-
-@media (min-width: 992px) {
-  .blocks-of-images {
-    display: grid;
-    grid-template-columns: 1fr 1fr; 
-    gap: 0px;
-  }
-  
-  .special-offer-weekday,
-  .special-offer-sweet,
-  .discount {
+    margin: auto;
     display: flex;
-    align-items: center; 
-  }
-
-  .white-block {
-    background-color: white;
-    width: 390px; 
-    height: 354px;
-
-  }
-
-  .girls-img,
-  .cocktail-img,
-  .meal-img {
-    width: 390px; 
-    height: 354px;
-
-  }
-
-  .images {
-    order: -1;
+    justify-content: center;
+    align-items: center;;
+    flex-direction: column;
   }
 }
