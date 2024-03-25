@@ -48,6 +48,10 @@ img {
   --scroll-behavior: smooth;
   --box-shadow-color: rgb(130 134 143 / 30%);
   --index: calc(1vw + 1vh);
+
+  --footer-background-color: #f7f6f2;
+  --header-hero-paragraph-color: #8286ac;
+  --button-opacity-color: #e64a17;
   font-family: var(--primary-font);
   background-color: var(--background-color);
 }

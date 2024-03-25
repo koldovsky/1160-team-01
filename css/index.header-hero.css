@@ -1,0 +1,71 @@
+.header__hero {
+  background-image: url("../img/header-footer/elgambino_back.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 320px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.header__super-title {
+  color: var(--button-background-color);
+  font-size: 12px;
+  font-family: var(--primary-font);
+  display: block;
+  float: left;
+  margin-top: 80px;
+  margin-bottom: 10px;
+}
+
+.header__title {
+  font-size: 24px;
+  font-family: var(--secondary-font);
+  color: var(--main-text-color);
+  display: block;
+}
+
+.header__sub-title {
+  font-size: 12px;
+  font-family: var(--primary-font);
+  color: var(--header-hero-paragraph-color);
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
+.header__hero-links {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.header__hero-links a {
+  text-decoration: none;
+}
+.header__hero-link {
+  margin: 0 10px;
+}
+
+.header__hero-link.button {
+  background-color: var(--button-background-color);
+  color: var(--button-light-text-color);
+  font-size: 16px;
+  font-family: var(--primary-font);
+  padding: 10px 20px;
+  border-radius: 0 12px 12px 12px;
+}
+.header__hero-link.button:hover {
+  background-color: var(--button-opacity-color);
+}
+
+.header__hero-link div {
+  display: flex;
+  align-items: center;
+}
+
+.header__hero-link img {
+  width: 15px;
+  margin-right: 10px;
+}
