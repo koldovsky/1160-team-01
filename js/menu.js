@@ -1,6 +1,5 @@
 function init() {
     import("./common.header.partial.js");
-    import("./about-us.our-team-slider.js");
   }
   
   const totalPartials = document.querySelectorAll('[hx-trigger="load"], [data-hx-trigger="load"]').length;
@@ -10,3 +9,4 @@ function init() {
     loadedPartialsCount++;
     if (loadedPartialsCount === totalPartials) init();
   });
+  
