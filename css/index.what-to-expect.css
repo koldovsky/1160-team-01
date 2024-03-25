@@ -39,13 +39,12 @@
 }
 .what-to-expect__units{
   display: grid;
+  scroll-behavior: smooth;
 }
 .what-to-expect__unit {
-  width: 312px;
+ display: inline-block; 
 }
 .what-to-expect__icon {
-  display: block;
-  position: relative;
   height: 70%;
   padding-top: 26.57%;
   padding-right: 15px;
