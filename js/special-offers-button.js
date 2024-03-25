@@ -1,8 +1,10 @@
-const contacts__button = document.getElementById("contacts__button");
+const contactsButtons = document.querySelectorAll(".contacts__button");
 
-contacts__button.addEventListener('mousemove', (e) => {
-    x = e.offsetX;
-    y = e.offsetY;
-    contacts__button.style.setProperty('--mouse-x', x + "px");
-    contacts__button.style.setProperty('--mouse-y', y + "px");
+contactsButtons.forEach((button) => {
+  button.addEventListener("mousemove", (e) => {
+    const x = e.offsetX;
+    const y = e.offsetY;
+    e.target.style.setProperty("--mouse-x", x + "px");
+    e.target.style.setProperty("--mouse-y", y + "px");
+  });
 });
