@@ -1,5 +1,5 @@
 function init() {
-  import("./special-offers-button.js");
+  import("./special-offers-pop-up.js");
 }
 
 const totalPartials = document.querySelectorAll('[hx-trigger="load"], [data-hx-trigger="load"]').length;

@@ -142,54 +142,123 @@
 }
 
 .contacts__button {
-    padding: 16px 42px;
-    border-radius: 3px;
-    box-shadow: 0px 0px 12px -2px rgba(0,0,0,0.5);
-    line-height: 1.25;
-    background: #FC6E51;
-    text-decoration: none;
-    color: white;
-    font-size: 16px;
-    letter-spacing: .08em;
-    text-transform: uppercase;
-    position: relative;
-    top: 100px;
-    left: 20px;
-    transition: background-color .6s ease;
-    overflow: hidden;
-    &:after {
-      content: "";
-      position: absolute;
-      width: 0;
-      height: 0;
-      top: 50%;
-      left: 50%;
-      top: calc(50% + 10px); 
-      left: calc(50% + 10px);
-      transform-style: flat;
-      transform: translate3d(-50%,-50%,0);
-      background: rgba(white,.1);
-      border-radius: 100%;
-      transition: width .3s ease, height .3s ease;
-    }
-    &:focus,
-    &:hover {
-        background: darken(#FC6E51,7%);
-    }
-    &:active {
-      &:after {
-        width: 300px;
-        height: 300px;
-      }
-    }
-  }
+  background-color:#ff5d28; 
+  color: #ffffff; 
+  font-family: Arial, sans-serif; 
+  font-size: 16px; 
+  font-weight: bold; 
+  padding: 14px 20px; 
+  border: none; 
+  border-radius: 7px 25px 25px 25px;
+  cursor: pointer;
+  text-decoration: none; 
+  transition: 0.3s; 
+  position: relative;
+  top: 90px;
+  margin-left: 20px;
+}
+
+.cupon-button{
+  margin-top: 40px;
+  text-align: center;
+}
+
+.cupon-button a {
+  font-family: var(--primary-font);
+  background-color: var(--button-background-color);
+  padding: 20px 50px;
+  border-radius: 7px 25px 7px 25px;
+  text-decoration: none;
+  color: var(--button-light-text-color);
+  display: inline-block;
+  margin-bottom: 40px;
+}
+
+.pop-up {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: transparent;
+  z-index: 2;
+  transform: translateY(-44.5%) scale(0);
+  transition: .4s ease-in-out;
+}
+
+.pop-up-conteiner {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.pop-up-body {
+  margin: auto;
+  width: 500px;
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+  padding: 100px 15px 110px 15px;
+  position: relative;
+}
+
+.pop-up-body p{
+  font-size: 28px;
+  font-family: var(--primary-font);
+  font-weight: 600px;
+  color: rgb(189, 59, 8);
+  margin-bottom: 30px;
+}
+
+.pop-up-body input {
+  display: block;
+  margin: 25px auto 0 auto;
+  width: 330px;
+  padding: 17px 20px;
+  background-color: rgb(248, 142, 93);
+  border-radius: 10px;
+  border: none;
+  font-family: var(--primary-font);
+  font-weight: 500;
+  font-size: 18px;
+  color:rgb(32, 31, 31);
+}
+
+.pop-up-body button {
+  cursor: pointer;
+  display: block;
+  width: 230px;
+  margin: 60px auto 0 auto;
+  padding: 20px;
+  font-family: var(--primary-font);
+  font-weight: 500;
+  font-size: 16px;
+  border: none;
+  color: rgb(224, 195, 150);
+  border-radius: 10px;
+  background-color: rgb(235, 109, 37);
+  margin-top: 30px;
+}
+
+.pop-up-close {
+  position: absolute;
+  top: 15px;
+  right: 25px;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.pop-up.active {
+  transform: translateY(0%) scale(100%);
+  background-color: rgba(0,0,0,0.8);
+}
 
 .blocks-of-images {
   display: grid;
   gap: 0;
   border: 1px;
   padding: 5px;
-  margin-bottom: 105px;
+  margin-bottom: 20px;
 }
 
 @media (min-width: 768px) {
@@ -198,7 +267,7 @@
   grid-template-columns: 1fr 1fr; 
   gap: 0px;
   flex-wrap: wrap;
-  margin-bottom: 105px;
+  margin-bottom: 20px;
 }
 
 .images {
@@ -243,7 +312,7 @@
     width: 100%; 
     max-width: 1170px; 
     margin: 0 auto; 
-    margin-bottom: 105px;
+    margin-bottom: 20px;
   }
 
   
