@@ -27,6 +27,7 @@
   margin: auto;
   text-align: center;
   width: 70px;
+  object-fit: cover;
 }
 .what-to-expect__description {
   font-family: var(--primary-font);
@@ -42,13 +43,15 @@
   scroll-behavior: smooth;
 }
 .what-to-expect__unit {
- display: inline-block; 
+ /*display: inline-block; */
 }
 .what-to-expect__icon {
-  height: 70%;
-  padding-top: 26.57%;
+  height: 93px;             /*70%*/
+  object-fit: contain;
+  object-position: left;
+  /*padding-top: 26.57%;
   padding-right: 15px;
-  padding-left: 15px;
+  padding-left: 15px;*/
 }
 .what-to-expect__item {
   padding-top: 20px;
