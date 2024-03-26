@@ -51,7 +51,10 @@ img {
 
   --footer-background-color: #f7f6f2;
   --header-hero-paragraph-color: #8286ac;
+  --header-social-links-background-color: #ff5d28;
+  --header-social-links-font-color: #a63a1d;
   --button-opacity-color: #e64a17;
+
   font-family: var(--primary-font);
   background-color: var(--background-color);
 }

@@ -78,26 +78,116 @@
   .header__menu-btn {
     display: none;
   }
+  .header__nav-container {
+    display: flex;
+    flex-direction: column;
+  }
   .header__schedule-socials {
     display: flex;
     flex-direction: row;
-    background-color: var(--button-opacity-color);
-    
+    background-color: var(--header-social-links-background-color);
+    width: auto;
+    height: 50px;
+  }
+  .header__schedule {
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    font-family: var(--primary-font);
+    color: var(--header-social-links-font-color);
+    margin-left: 15px;
+    font-weight: 500;
   }
   .header__socials ul {
     list-style: none;
     text-decoration: none;
-    display: inline;
   }
-  .header__schedule-socials .header__schedule {
-    display: flex;
-    justify-content: space-around;
-    font-size: 12px;
-    align-items: center;
-  }
+  
   .header__socials {
     display: flex;
     align-items: center;
     margin-left: auto;
+    flex-direction: row;
+    font-size: 10px;
+    font-family: var(--primary-font);
+    font-weight: 500px;
+    color: var(--header-social-links-font-color);
+    
   }
+  .header__socials-list {
+    display: inline;
+    list-style-type: none;
+    padding: 0;
+    margin-right: 0;
+  }
+  .header__socials-list-item {
+    display: inline-block;
+    margin-left: 10px;
+  }
+  
+  .header__nav-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .header__nav-container {
+
+  }
+  .header__nav-container .header__logo{
+    display: flex;
+    width: 120px;
+    height: 50px;
+    margin-top: 10px;
+    align-items: center;
+    margin-left: 15px;
+  }
+  .header__logo-container {
+    margin-right: auto;
+  }
+
+  .header__main-menu {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .header__nav-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+    align-items: right;
+  }
+  .header__nav-link {
+    font-size: 12px;
+    font-family: var(--primary-font);
+    font-weight: 500;
+  }
+  /* 
+  
+  .header__logo-link{
+    display: flex;
+    width: 120px;
+    height: 50px;
+    margin-right: auto;
+    margin-left: 15px;
+    margin-top: 15px;
+    align-items: center;
+  }
+
+  .header__nav-menu { 
+    margin-left: auto;
+  }
+
+  .header__nav-list-item {
+    margin-right: 20px;
+  } */
+
 }
+
+/* .header__schedule-socials .header__schedule {
+  display: flex;
+  justify-content: space-around;
+  font-size: 12px;
+  align-items: center;
+} */
