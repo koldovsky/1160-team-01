@@ -1,23 +1,41 @@
 .index-about-us {
+  margin: 50px 0;
+  min-height: 781px;
+}
+
+.index-about-us__content {
   display: grid;
   scroll-behavior: smooth;
+  gap: 50px;
+}
+
+.index-about-us__container {
+  max-width: 1200px;
+  padding: 50px 30px 110px;
+  margin: 0 auto;
+}
+
+.index-about-us__picture {
+  max-height: 621px;
+}
+
+.index-about-us__picture img {
+  max-height: 100%;
+  object-fit: contain;
 }
 
 .index-about-us__aside-picture {
-  padding-top: 80px;
-  width: 100%;
-  position: relative;
+  
+   /*padding-top: 80px;*/
+  /*width: 100%;*/
+  /*position: relative;*/
 }
 .index-about-us__heading {
-  padding-top: 50px;
-  padding-bottom: 30px;
   font-family: var(--primary-font);
   font-size: 11px;
   color: var(--title-text-color);
   font-weight: 900;
   text-align: left;
-  padding-right: 15px;
-  padding-left: 15px;
 }
 .index-about-us__name {
   font-family: var(--secondary-font);
@@ -25,8 +43,6 @@
   font-size: 34px;
   font-weight: 400;
   text-align: left;
-  padding-right: 15px;
-  padding-left: 15px;
 }
 .index-about-us__accessory-sign {
   display: inline;
@@ -71,10 +87,29 @@ index-about-us__contact-button {
 }
 @media (min-width: 768px) {
   .index-about-us {
+    max-height: 850px;
+    position: relative;
+  }
+
+  .index-about-us__bg-decoration {
+    background-image: url(../img/about-us-on-main-page/back-passion-for-food-picture.png);
+    background-position: 55% 70%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+  }
+
+  .index-about-us__picture img {
+    width: 85%;
+  }
+
+  .index-about-us__content {
     grid-template-columns: 1fr 1fr;
     align-items: center;
-    align-content: center;
-    background-image: url(../img/about-us-on-main-page/back-passion-for-food-picture.png);
+    align-content: center;*/
   }
   .index-about-us__description-bold {
     padding-bottom: 15px;
