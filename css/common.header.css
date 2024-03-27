@@ -151,13 +151,7 @@
     flex-direction: row;
     justify-content: space-between;
   }
-  .header__nav-list {
-    list-style-type: none;
-    padding: 0;
-    display: flex;
-    gap: 10px;
-    align-items: right;
-  }
+  
   .header__nav-link {
     font-size: 12px;
     font-family: var(--primary-font);
