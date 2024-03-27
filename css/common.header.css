@@ -1,6 +1,5 @@
 .header__nav-container {
   background-color: var(--background-color);
-
   height: 75px;
   width: auto;
   display: flex;
@@ -11,8 +10,8 @@
 }
 
 .header__logo-container img {
-  width: 115px;
-  height: 40px;
+  width: 125px;
+  height: 50px;
   display: flex;
   align-items: center;
   padding: 5%;
@@ -26,9 +25,11 @@
 .header__nav-list a {
   text-decoration: none;
 }
+
 .header__nav-list a:hover {
   color: var(--button-opacity-color);
 }
+
 .header__menu-btn {
   cursor: pointer;
 }
@@ -38,7 +39,6 @@
   width: 25px;
   height: 3px;
   margin: 5px auto;
-  -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   background-color: var(--main-text-color);
 }
@@ -46,15 +46,17 @@
 .header__menu-btn.active .header__nav-icon:nth-child(2) {
   opacity: 0;
 }
+
 .header__menu-btn.active .header__nav-icon:nth-child(1) {
   transform: translateY(8px) rotate(45deg);
 }
+
 .header__menu-btn.active .header__nav-icon:nth-child(3) {
   transform: translateY(-8px) rotate(-45deg);
 }
 
 .header__nav-menu {
-  position: fixed;
+  position:absolute;
   top: 70px;
   gap: 0;
   flex-direction: column;
@@ -63,25 +65,18 @@
   text-align: center;
   transition: 0.3s;
 }
-.header__nav-menu.active {
-  .header__schedule-socials,
-  .header__nav-list {
-    display: block;
-  }
+
+.header__nav-menu.active .header__schedule-socials,
+.header__nav-menu.active .header__nav-list {
+  display: block;
+  list-style: none;
 }
 
 .header__nav-list-item {
   margin: 16px 0;
-  
 }
+
 @media (min-width: 990px) {
-  .header__menu-btn {
-    display: none;
-  }
-  .header__nav-container {
-    display: flex;
-    flex-direction: column;
-  }
   .header__schedule-socials {
     display: flex;
     flex-direction: row;
@@ -89,6 +84,7 @@
     width: auto;
     height: 50px;
   }
+
   .header__schedule {
     font-size: 10px;
     display: flex;
@@ -96,13 +92,14 @@
     font-family: var(--primary-font);
     color: var(--header-social-links-font-color);
     margin-left: 15px;
-    font-weight: 500;
+    font-weight: 700;
   }
+
   .header__socials ul {
     list-style: none;
     text-decoration: none;
   }
-  
+
   .header__socials {
     display: flex;
     align-items: center;
@@ -110,78 +107,67 @@
     flex-direction: row;
     font-size: 10px;
     font-family: var(--primary-font);
-    font-weight: 500px;
+    font-weight: 700;
     color: var(--header-social-links-font-color);
-    
+    margin-left: auto;
+    margin-right: 5%;
+  }
+
+  .header__socials-link {
+    color: var(--header-social-links-font-color); 
   }
   .header__socials-list {
     display: inline;
     list-style-type: none;
     padding: 0;
-    margin-right: 0;
   }
+
   .header__socials-list-item {
     display: inline-block;
     margin-left: 10px;
   }
+
+  .header__menu-btn {
+    display: none;
+  }
   
   .header__nav-container {
     display: flex;
+    justify-content: space-between;
     align-items: center;
   }
 
-  .header__nav-container {
-
+  .header__nav-menu {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: auto;
   }
-  .header__nav-container .header__logo{
+
+  .header__logo-container {
     display: flex;
     width: 120px;
     height: 50px;
     margin-top: 10px;
     align-items: center;
     margin-left: 15px;
-  }
-  .header__logo-container {
-    margin-right: auto;
+    order: 1;
+    position: relative;
   }
 
-  .header__main-menu {
+  .header__nav-list {
     display: flex;
     align-items: center;
-    flex-direction: row;
-    justify-content: space-between;
+    justify-content: end;
+    list-style: none;
+    margin-left: auto;
+    margin-right: 5%;
   }
-  
-  .header__nav-link {
+
+  .header__nav-list-item {
+    margin-right: 15px;
     font-size: 12px;
     font-family: var(--primary-font);
     font-weight: 500;
   }
-  /* 
-  
-  .header__logo-link{
-    display: flex;
-    width: 120px;
-    height: 50px;
-    margin-right: auto;
-    margin-left: 15px;
-    margin-top: 15px;
-    align-items: center;
-  }
-
-  .header__nav-menu { 
-    margin-left: auto;
-  }
-
-  .header__nav-list-item {
-    margin-right: 20px;
-  } */
-
 }
-
-/* .header__schedule-socials .header__schedule {
-  display: flex;
-  justify-content: space-around;
-  font-size: 12px;
-  align-items: center;
-} */
