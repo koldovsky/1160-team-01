@@ -1,6 +1,6 @@
 function init() {
     import("./common.header.partial.js");
-    import("./contacts.reservation.partial.js");
+    import("./contacts-content.js");
 }
 
 const totalPartials = document.querySelectorAll('[hx-trigger="load"], [data-hx-trigger="load"]').length;
