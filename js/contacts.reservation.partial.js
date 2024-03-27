@@ -19,4 +19,6 @@ function renderContent(contentArr) {
   contentContainer.innerHTML = contentDomString;
 }
 
+console.log(contentDomString);
+
 renderContent(contentArr);
