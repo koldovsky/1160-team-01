@@ -17,9 +17,7 @@ function renderContent(contentArr) {
   }
   const contentContainer = document.querySelector(".book__ul");
   contentContainer.innerHTML = contentDomString;
-  console.log(contentDomString);
+//   console.log(contentDomString);
 }
-
-
 
 renderContent(contentArr);
