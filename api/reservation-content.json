@@ -2,16 +2,19 @@
     {
         "title": "Booking Cancellation",
         "image": "img/contacts/dish.svg",
+        "alt": "Dish",
         "description": "Cancellations must be made at least 24 hours in advance. Please call us to cancel your reservation."
     },
     {
         "title": "Booking Finalization",
         "image": "img/contacts/phone.svg",
+        "alt": "Phone call",
         "description": "All reservations must be finalised with the restaurant no later than 12 hours prior to the reservation date."
     },
     {
         "title": "Minimum Spend",
         "image": "img/contacts/bill.svg",
+        "alt": "Bill",
         "description": "There is no minimum spend required for a reservation. The exception is group bookings for 6+ people."
     }
 ]
