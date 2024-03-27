@@ -1,86 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/contacts.reservation.css" />
-    <title>Document</title>
-  </head>
-  <body>
-    <section class="book">
-      <div class="book__left">
-        <p class="book__upper-text">- BOOK A TABLE -</p>
-        <h2 class="book__header">Reservation Conditions</h2>
-        <div class="book__orange-delimiter">
-          <img src="img/about-us-our-team/decoration.svg" alt="Delimiter" />
-        </div>
-        <p class="book__subtitle">
-          Please make sure you've made the reservation before your visit.
-        </p>
-        <p class="book__text">
-          All of our restaurants are quite popular, so we cannot guarantee you a
-          seat unless you reserve a table in advance. You can book a table by
-          filling the form on the right or by contacting us in any convenient
-          way. Below you will find some reservation rules we ask our guests to
-          follow.
-        </p>
-        <ul class="book__ul"><!-- JS generated content --></ul>
-      </div>
 
-      <div class="book__right">
-        <h2 class="book__form-header">Book a Table</h2>
-        <div class="book__form-orange-delimiter">
-          <img src="img/about-us-our-team/decoration.svg" alt="Delimiter" />
-        </div>
-        <form action="#" method="post" class="book__form">
-          <input
-            class="book__form-field"
-            type="text"
-            name="book-form"
-            id="name"
-            placeholder="Name*"
-            required
-          />
-          <input
-            class="book__form-field"
-            type="text"
-            name="book-form"
-            id="phone"
-            placeholder="Phone number*"
-            required
-          />
-          <input
-            class="book__form-field"
-            type="email"
-            name="book-form"
-            id="email"
-            placeholder="Email"
-            required
-          />
-          <select id="restaurant" name="book-form" class="book__form-field book__select">
-            <option selected hidden>Restaurant</option>
-            <option value="El Gambino NY">El Gambino NY</option>
-            <option value="El Gambino Boston">El Gambino Boston</option>
-            <option value="El Gambino Chicago">El Gambino Chicago</option>
-          </select>
-          <input
-            class="book__form-field"
-            type="text"
-            name="book-form"
-            id="date"
-            placeholder="Date and Time"
-            required
-          />
-          <select id="persons" name="book-form" class="book__form-field book__select">
-            <option selected hidden>Number of persons</option>
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4+">4+</option>
-          </select>
-          <button class="book__form-button" type="submit">Book a Table</button>
-        </form>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/contacts.reservation.css" />
+  <title>Document</title>
+</head>
+
+<body>
+  <section class="book">
+    <div class="book__left">
+      <p class="book__upper-text">- BOOK A TABLE -</p>
+      <h2 class="book__header">Reservation Conditions</h2>
+      <div class="book__orange-delimiter">
+        <img src="img/about-us-our-team/decoration.svg" alt="Delimiter" />
       </div>
-    </section>
-  </body>
+      <p class="book__subtitle">
+        Please make sure you've made the reservation before your visit.
+      </p>
+      <p class="book__text">
+        All of our restaurants are quite popular, so we cannot guarantee you a
+        seat unless you reserve a table in advance. You can book a table by
+        filling the form on the right or by contacting us in any convenient
+        way. Below you will find some reservation rules we ask our guests to
+        follow.
+      </p>
+      <ul class="book__ul"><!-- JS generated content, see contacts-content.js--></ul>
+    </div>
+    
+    <div class="book__right">
+      <h2 class="book__form-header">Book a Table</h2>
+      <div class="book__form-orange-delimiter">
+        <img src="img/about-us-our-team/decoration.svg" alt="Delimiter" />
+      </div>
+      <form action="#" method="post" class="book__form">
+        <input class="book__form-field" type="text" name="book-form" id="name" placeholder="Name*" required />
+        <input class="book__form-field" type="text" name="book-form" id="phone" placeholder="Phone number*" required />
+        <input class="book__form-field" type="email" name="book-form" id="email" placeholder="Email" required />
+        <select id="restaurant" name="book-form" class="book__form-field book__select">
+          <option selected hidden>Restaurant</option>
+          <option value="El Gambino NY">El Gambino NY</option>
+          <option value="El Gambino Boston">El Gambino Boston</option>
+          <option value="El Gambino Chicago">El Gambino Chicago</option>
+        </select>
+        <input class="book__form-field" type="text" name="book-form" id="date" placeholder="Date and Time" required />
+        <select id="persons" name="book-form" class="book__form-field book__select">
+          <option selected hidden>Number of persons</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4+">4+</option>
+        </select>
+        <button class="book__form-button" type="submit">Book a Table</button>
+      </form>
+    </div>
+  </section>
+</body>
+
 </html>
