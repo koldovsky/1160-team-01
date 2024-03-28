@@ -1,6 +1,7 @@
 function init() {
   import("./common.header.partial.js");
   import("./special-offers-pop-up.js");
+  import("./special-offers-countdown.js");
 }
 
 const totalPartials = document.querySelectorAll('[hx-trigger="load"], [data-hx-trigger="load"]').length;

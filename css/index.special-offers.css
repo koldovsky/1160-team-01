@@ -203,9 +203,9 @@
 }
 
 .pop-up-body p{
-  font-size: 28px;
+  font-size: 32px;
   font-family: var(--primary-font);
-  font-weight: 600px;
+  font-weight: bold;
   color: rgb(189, 59, 8);
   margin-bottom: 30px;
 }
@@ -234,7 +234,7 @@
   font-weight: 500;
   font-size: 16px;
   border: none;
-  color: rgb(224, 195, 150);
+  color: rgb(243, 225, 197);
   border-radius: 10px;
   background-color: rgb(235, 109, 37);
   margin-top: 30px;
@@ -251,6 +251,14 @@
 .pop-up.active {
   transform: translateY(0%) scale(100%);
   background-color: rgba(0,0,0,0.8);
+}
+
+#countdown {
+  display: block;
+  font-size: 18px;
+  color: #ffffff;
+  padding: 5px 10px;
+  border-radius: 5px;
 }
 
 .blocks-of-images {
