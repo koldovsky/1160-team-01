@@ -1,4 +1,4 @@
-.header__hero {
+.header__hero-background {
   background-image: url("../img/header-footer/elgambino_back.png");
   background-size: cover;
   background-position: center;
@@ -10,6 +10,14 @@
   margin-right: 10px;
 }
 
+.header__hero {
+  width: 900px;
+  height: auto;
+    display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}
 .header__super-title {
   color: var(--button-background-color);
   font-size: 12px;
@@ -68,4 +76,10 @@
 .header__hero-link img {
   width: 15px;
   margin-right: 10px;
+}
+
+@media (max-width: 990px) {
+  .header__hero {
+    
+  }
 }
