@@ -20,7 +20,7 @@ const items = [
 ];
 
 function renderItems(items) {
-  let productsDomString = '';
+  let itemsDomString = '';
   for (const item of items) {
     itemsDomString += `
     <div class="what-to-expect__unit">
