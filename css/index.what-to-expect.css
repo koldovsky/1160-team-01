@@ -1,12 +1,8 @@
 .what-to-expect__header {
   width: 272;
-  padding-right: 15px;
-  padding-left: 15px;
-  padding-top: 50px;
+  padding: 60px 25px 30px 25px;
 }
 .what-to-expect__heading {
-  padding-right: 15px;
-  padding-left: 15px;
   font-family: var(--primary-font);
   font-size: 11px;
   color: var(--title-text-color);
@@ -19,14 +15,13 @@
   font-size: 34px;
   font-weight: 400;
   text-align: center;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-top: 20px;
 }
 .what-to-expect__accessory-img {
   display: block;
   margin: auto;
   text-align: center;
-  width: 70px;
+  width: 100px;
   object-fit: cover;
 }
 .what-to-expect__description {
@@ -35,39 +30,29 @@
   font-weight: 500;
   text-align: center;
   color: var(--secondary-text-color);
-  padding-right: 15px;
-  padding-left: 15px;
 }
-.what-to-expect__units{
+.what-to-expect__units {
   display: grid;
   scroll-behavior: smooth;
 }
 .what-to-expect__unit {
- /*display: inline-block; */
+  padding: 25px 25px 40px 25px;
 }
 .what-to-expect__icon {
-  height: 93px;             /*70%*/
+  height: 73px;
   object-fit: contain;
   object-position: left;
-  /*padding-top: 26.57%;
-  padding-right: 15px;
-  padding-left: 15px;*/
 }
 .what-to-expect__item {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 15px 0 10px 0;
   font-family: var(--secondary-font);
   color: var(--main-text-color);
   font-size: 22px;
   text-align: left;
   font-weight: 400;
-  padding-right: 15px;
-  padding-left: 15px;
 }
 .what-to-expect__item-description {
   padding-top: 15px;
-  padding-right: 15px;
-  padding-left: 15px;
   font-family: var(--primary-font);
   color: var(--tertiary-text-color);
   font-size: 17px;
@@ -75,26 +60,23 @@
   text-align: left;
 }
 .what-to-expect__horisontal-dicorator {
-  padding-left: 15px;
-  color: var(--button-background-color);
+  background-color: var(--button-background-color);
   border-color: var(--button-background-color);
-  font-weight: 900;
-  width: 35px;
+  width: 38px;
+  padding-top: 1px;
 }
 @media (min-width: 768px) {
-
   .what-to-expect__units {
-      grid-template-columns: 1fr 1fr;
-      align-items: center;
-      align-content: center;
-     
+    grid-template-columns: 1fr 1fr;
+    padding: 0 10px 0 10px;
+  }
+  .what-to-expect__icon {
+    height: 93px;
   }
 }
-  @media (min-width: 992px) {
 
-    .what-to-expect__units {
-        grid-template-columns: 1fr 1fr 1fr;
-        align-items: center;
-        align-content: center;
-    }
+@media (min-width: 992px) {
+  .what-to-expect__units {
+    grid-template-columns: 1fr 1fr 1fr;
   }
+}
