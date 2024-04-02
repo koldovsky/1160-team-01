@@ -1,6 +1,6 @@
 function init() {
   import("./common.header.partial.js");
-  import("./.what-to-expect.partial.js");
+  import("./what-to-expect.partial.js");
   import("./special-offers-pop-up.js");
   import("./special-offers-countdown.js");
 }
