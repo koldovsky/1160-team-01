@@ -20,7 +20,7 @@ const items = [
 ];
 
 function renderItems(items) {
-  let itemsDomString = '';
+  let itemsDomString = "";
   for (const item of items) {
     itemsDomString += `
     <div class="what-to-expect__unit">
@@ -31,7 +31,7 @@ function renderItems(items) {
           </p>
     </div>`;
   }
-  const itemsContainer = document.querySelector('.what-to-expect__units');
+  const itemsContainer = document.querySelector(".what-to-expect__units");
   itemsContainer.innerHTML = itemsDomString;
 }
 renderItems(items);
