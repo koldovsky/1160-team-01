@@ -15,6 +15,7 @@
   display: flex;
   align-items: center;
   padding: 5%;
+  order: 0;
 }
 
 .header__schedule-socials,
@@ -163,11 +164,17 @@
     margin-top: 10px;
     align-items: center;
     margin-left: 15px;
-    order: 0;
+    order: 1;
     position: relative;
     flex-shrink: 0;
   }
   .header__nav-menu {
-    width: auto;
+    position: absolute;
+    top: 70px;
+    gap: 0;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
   }
 }
