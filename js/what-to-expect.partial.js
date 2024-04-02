@@ -24,7 +24,7 @@ function renderItems(items) {
   for (const item of items) {
     itemsDomString += `
     <div class="what-to-expect__unit">
-          <img src="${item.image}" alt="${item.title}">
+          <img class="what-to-expect__icon" src="${item.image}" alt="${item.title}">
           <p class="what-to-expect__item">${item.title}</p>
           <hr class="what-to-expect__horisontal-dicorator" />
           <p class="what-to-expect__item-description">${item.description}
