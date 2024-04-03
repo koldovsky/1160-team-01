@@ -99,7 +99,7 @@ index-about-us__contact-button {
   .index-about-us__content {
     grid-template-columns: 1fr 1fr;
     align-items: center;
-    align-content: center;*/
+    align-content: center;
   }
   .index-about-us__description-bold {
     padding-bottom: 15px;
