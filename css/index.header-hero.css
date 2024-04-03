@@ -11,7 +11,7 @@
 }
 
 .header__hero {
-  width: 900px;
+  max-width: 900px;
   height: auto;
     display: flex;
   flex-direction: column;

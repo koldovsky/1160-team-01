@@ -70,6 +70,13 @@
 .header__nav-menu.active .header__nav-list {
   display: block;
   list-style: none;
+  background-color: var(--background-color);
+  height: 1000px;
+  margin-top: -15px;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
 }
 
 .header__nav-list-item {
@@ -169,11 +176,11 @@
     flex-shrink: 0;
   }
   .header__nav-menu {
+    max-width: 900px;
     position: absolute;
     top: 70px;
     gap: 0;
     flex-direction: column;
-    width: 100%;
     text-align: center;
     transition: 0.3s;
   }

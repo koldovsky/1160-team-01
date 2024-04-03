@@ -2,7 +2,10 @@
   background-color: var(--footer-background-color);
   width: 100%;
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
+  padding: 0 25%;
 }
 .footer__nav a {
   text-decoration: none;
