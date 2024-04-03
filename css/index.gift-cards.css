@@ -1,0 +1,158 @@
+.gift-cards {
+    background-image: url("../img/gift-card/gift-card-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.gift-cards__container {
+    max-width: 1200px;
+    padding: 120px 30px;
+    margin: 0 auto;
+}
+
+.gift-cards__content-info-title {
+    color: var(--gift-card-title);
+    font-size: var(--about-us-topic-title-font-size);
+    line-height: var(--about-us-title-line-heigth-primary);
+}
+
+.gift-cards__content-info-subtitle {
+    color: var(--gift-card-subtitle);
+    font-family: var(--secondary-font);
+    font-size: calc(var(--about-us-topic-subtitle-font-size) * 0.75);
+    line-height: calc(var(--about-us-subtitle-line-heigth-primary) * 0.8);
+    margin: 15px 0 5px;
+}
+
+.gift-cards__content-info-decoration {
+    filter: brightness(0) saturate(100%) invert(99%) sepia(0%) saturate(2%) hue-rotate(180deg) brightness(108%) contrast(100%);
+    max-width: 70px;
+}
+
+.gift-cards__content-info-text {
+    color: var(--gift-card-text-white);
+    font-size: var(--about-us-topic-text-font-size);
+    line-height: var(--about-us-subtitle-line-heigth-secondary);
+    margin: 5px 0 30px;
+}
+
+.gift-cards__content-info-conditions-button {
+    width: 130px;
+    height: 46px;
+    background-color: var(--background-color-white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px 50px 50px 50px;
+    transition: .5s ease-out;
+    overflow: hidden;
+}
+
+.gift-cards__content-info-conditions-button:hover {
+    background-color: var(--button-dark-text-color);
+}
+
+.gift-cards__content-info-conditions-button-item {
+    font-weight: 700;
+    text-decoration: none;
+    color: var(--gift-card-price-text-dark);
+    transition: .5s ease-out;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 10%;
+}
+
+.gift-cards__content-info-conditions-button-item:hover {
+    color: var(--button-light-text-color);
+}
+
+.gift-cards__content-cards {
+    display: flex;
+    flex-direction: column;
+}
+
+.gift-cards__content-cards-card {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-around;
+    height: 396px;
+    width: 100%;
+    background-color: #fff;
+    margin: 30px 0;
+    padding: 20px 30px;
+    border-radius: 5px;
+}
+
+.gift-cards__content-cards-card-present {
+    max-width: 50px;
+}
+
+.gift-cards__content-cards-card-price {
+    font-family: var(--secondary-font);
+    font-size: var(--about-us-title-font-size-secondary);
+    line-height: var(--about-us-main-line-heigth);
+    color: var(--gift-card-price-text-dark);
+}
+
+.gift-cards__content-cards-card-description {
+    font-size: var(--carousel-card-title-font-size);
+    line-height: var(--about-us-subtitle-line-heigth-secondary);
+    color: var(--gift-card-description-text-dark);
+}
+
+.gift-cards__content-cards-card-hint {
+    font-size: var(--carousel-card-subtitle-font-size);
+    line-height: var(--about-us-title-line-heigth-primary);
+    color: var(--gift-card-hint-text-dark);
+}
+
+.gift-cards__content-cards-card-hint span {
+    color: red;
+}
+
+.gift-cards__content-cards-card-buy {
+    font-size: var(--about-us-topic-title-font-size);
+    line-height: var(--about-us-title-line-heigth-primary);
+    color: var(--title-text-color);
+    font-weight: 700;
+}
+
+@media only screen and (min-width: 768px) {
+    .gift-cards__content-info-subtitle {
+        font-size: var(--about-us-topic-subtitle-font-size);
+        line-height: var(--about-us-subtitle-line-heigth-primary);
+    }
+
+    .gift-cards__content-cards-card {
+        align-items: center;
+        text-align: center;
+    }
+
+    .gift-cards__content-cards {
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 30px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .gift-cards__content {
+        display: flex;
+        gap: 30px;
+    }
+
+    .gift-cards__container {
+        max-height: 632px;
+    }
+
+    .gift-cards__content-cards-card {
+        margin: 0;
+    }
+
+    .gift-cards__content-info {
+        margin: 15px 0;
+    }
+}

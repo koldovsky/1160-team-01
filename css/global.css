@@ -48,7 +48,12 @@ img {
   --scroll-behavior: smooth;
   --box-shadow-color: rgb(130 134 143 / 30%);
   --index: calc(1vw + 1vh);
-
+  --gift-card-title: #F7F6F2;
+  --gift-card-subtitle: #FFFFFF;
+  --gift-card-text-white: #FFFFFFCF;
+  --gift-card-price-text-dark: #4B566A;
+  --gift-card-description-text-dark: #9B9EA4;
+  --gift-card-hint-text-dark: #82868FA1;
   --footer-background-color: #f7f6f2;
   --header-hero-paragraph-color: #8286ac;
   --header-social-links-background-color: #ff5d28;

@@ -3,6 +3,7 @@ function init() {
   import("./what-to-expect.partial.js");
   import("./special-offers-pop-up.js");
   import("./special-offers-countdown.js");
+  import("./dishes-carousel.js");
 }
 
 const totalPartials = document.querySelectorAll('[hx-trigger="load"], [data-hx-trigger="load"]').length;
