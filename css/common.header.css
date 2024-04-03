@@ -84,6 +84,9 @@
 }
 
 @media (min-width: 990px) {
+  .header__nav {
+    background-color: var(--background-color);
+  }
   .header__schedule-socials {
     background-color: var(--header-social-links-background-color);
     display: flex;
