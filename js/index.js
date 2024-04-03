@@ -1,6 +1,7 @@
 function init() {
   import("./common.header.partial.js");
   import("./what-to-expect.partial.js");
+  import("./index.about-us.partial.js");
   import("./special-offers-pop-up.js");
   import("./special-offers-countdown.js");
   import("./dishes-carousel.js");

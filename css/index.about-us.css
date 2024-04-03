@@ -75,7 +75,6 @@ index-about-us__contact-button {
   text-transform: uppercase;
 }
 .index-about-us__button:hover {
-  background-color: var(--button-opacity-color);
   transition: 2s;
 }
 @media (min-width: 768px) {
