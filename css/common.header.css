@@ -87,12 +87,14 @@
   .header__nav {
     background-color: var(--background-color);
   }
+
   .header__schedule-socials {
     background-color: var(--header-social-links-background-color);
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
+
   .header__schedule-socials-block {
     max-width: 990px;
     margin: 0 auto;
@@ -143,6 +145,7 @@
   .header__menu-btn {
     display: none;
   }
+
   .header__nav-container {
     display: flex;
     justify-content: space-between;
@@ -167,6 +170,7 @@
     font-family: var(--primary-font);
     font-weight: 500;
   }
+
   .header__logo-container {
     display: flex;
     width: auto;
@@ -178,6 +182,7 @@
     position: relative;
     flex-shrink: 0;
   }
+
   .header__nav-menu {
     max-width: 900px;
     position: absolute;

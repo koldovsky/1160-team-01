@@ -96,7 +96,7 @@
 
 .white-block {
   width: 270px;
-  height: 387.0px;
+  height: 387px;
   background-color: white;
   padding: 20px;
   margin: auto;
@@ -112,7 +112,7 @@
   text-align: left;
   width: fit-content;
   font-weight: bold;
-  margin-bottom: 20px; 
+  margin-bottom: 20px;
   margin-top: 20px;
   padding-left: 20px;
 }
@@ -142,23 +142,23 @@
 }
 
 .contacts__button {
-  background-color:#ff5d28; 
-  color: #ffffff; 
-  font-family: Arial, sans-serif; 
-  font-size: 16px; 
-  font-weight: bold; 
-  padding: 14px 20px; 
-  border: none; 
+  background-color: #ff5d28;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 14px 20px;
+  border: none;
   border-radius: 7px 25px 25px 25px;
   cursor: pointer;
-  text-decoration: none; 
-  transition: 0.3s; 
+  text-decoration: none;
+  transition: 0.3s;
   position: relative;
   top: 90px;
   margin-left: 20px;
 }
 
-.cupon-button{
+.cupon-button {
   margin-top: 40px;
   text-align: center;
 }
@@ -183,7 +183,7 @@
   background-color: transparent;
   z-index: 2;
   transform: translateY(-44.5%) scale(0);
-  transition: .4s ease-in-out;
+  transition: 0.4s ease-in-out;
 }
 
 .pop-up-conteiner {
@@ -202,7 +202,7 @@
   position: relative;
 }
 
-.pop-up-body p{
+.pop-up-body p {
   font-size: 32px;
   font-family: var(--primary-font);
   font-weight: bold;
@@ -221,7 +221,7 @@
   font-family: var(--primary-font);
   font-weight: 500;
   font-size: 18px;
-  color:rgb(32, 31, 31);
+  color: rgb(32, 31, 31);
 }
 
 .pop-up-body button {
@@ -250,7 +250,7 @@
 
 .pop-up.active {
   transform: translateY(0%) scale(100%);
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 #countdown {
@@ -270,46 +270,46 @@
 }
 
 @media (min-width: 768px) {
-.blocks-of-images {
-  display: grid;
-  grid-template-columns: 1fr 1fr; 
-  gap: 0px;
-  flex-wrap: wrap;
-  margin-bottom: 20px;
-}
+  .blocks-of-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
 
-.images {
-  position: relative;
-}
+  .images {
+    position: relative;
+  }
 
-.special-offer-weekday,
-.special-offer-sweet,
-.discount {
-  display: flex;
-  flex-direction: column;
-  gap: 0px; 
-  align-items: end;
-}
+  .special-offer-weekday,
+  .special-offer-sweet,
+  .discount {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: end;
+  }
 
-.white-block {
-  background-color: white;
-  padding: 20px;
-  width: 355.6px; 
-  height: 325.01px; 
-  margin-left: 0px;
-  margin-bottom: 0px;
-}
+  .white-block {
+    background-color: white;
+    padding: 20px;
+    width: 355.6px;
+    height: 325.01px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+  }
 
-.girls-img,
-.cocktail-img,
-.meal-img {
-  display: flex;
-  width: 355.6px;
-  height: 325.01px; 
-  margin-left: 25px;
-  margin-top: 0;
-  margin-bottom: 0;
-}
+  .girls-img,
+  .cocktail-img,
+  .meal-img {
+    display: flex;
+    width: 355.6px;
+    height: 325.01px;
+    margin-left: 25px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
 }
 
 @media (min-width: 992px) {
@@ -317,27 +317,26 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 0px;
-    width: 100%; 
-    max-width: 1170px; 
-    margin: 0 auto; 
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
     margin-bottom: 20px;
   }
 
-  
   .special-offer-weekday,
   .special-offer-sweet,
   .discount {
     display: grid;
-    gap: 0px; 
+    gap: 0px;
     width: 390px;
-    height: 354px; 
+    height: 354px;
     align-items: end;
   }
-  
+
   .white-block {
     background-color: white;
     width: 390px;
-    height: 354px;  
+    height: 354px;
     margin-left: 0px;
     margin-bottom: 0px;
   }
@@ -346,7 +345,7 @@
   .cocktail-img,
   .meal-img {
     width: 390px;
-    height: 354px; 
+    height: 354px;
     margin-left: 0px;
     margin-bottom: 0px;
     margin: auto;

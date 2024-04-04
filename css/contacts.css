@@ -6,6 +6,5 @@
 @import "common.footer.css";
 
 .contacts {
-    background-color: var(--background-color);
+  background-color: var(--background-color);
 }
-

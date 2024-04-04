@@ -143,12 +143,13 @@
 }
 
 ::placeholder {
-    color: var(--placeholder-text-color);
-    opacity: 1; /* Firefox */
+  color: var(--placeholder-text-color);
+  opacity: 1; /* Firefox */
 }
-  
-::-ms-input-placeholder { /* Edge 12-18 */
-    color: var(--placeholder-text-color);
+
+::-ms-input-placeholder {
+  /* Edge 12-18 */
+  color: var(--placeholder-text-color);
 }
 
 .book__select {

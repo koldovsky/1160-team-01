@@ -5,43 +5,42 @@
   padding: 5px;
   margin-bottom: 20px;
 }
-.background-italian{
- position: absolute;
+.background-italian {
+  position: absolute;
 }
-.image-column{
+.image-column {
   width: 400px;
   height: 515px;
 }
-  .italian-fish,
-  .italian-meat {
-    width: 370;
-    height: 515px; 
-    margin-left: 0px;
-    margin-bottom: 0px;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-  .italian-drink{
-    width: 317px;
-    height: 515px; 
-    margin-left: 0px;
-    margin-bottom: 0px;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-  
-  .content-italian {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: left;
-  }
+.italian-fish,
+.italian-meat {
+  width: 370;
+  height: 515px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.italian-drink {
+  width: 317px;
+  height: 515px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 
+.content-italian {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+}
 
 @media (min-width: 768px) {
   .blocks-of-images-italian {
@@ -53,7 +52,7 @@
     position: absolute;
   }
 
-  .images-italian{
+  .images-italian {
     position: relative;
   }
 
@@ -87,22 +86,22 @@
   }
 }
 
-@media (min-width:900px) {
+@media (min-width: 900px) {
   .blocks-of-images-italian {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 0px;
-    width: 100%; 
-    max-width: 1170px; 
-    margin: auto ; 
+    width: 100%;
+    max-width: 1170px;
+    margin: auto;
     margin-bottom: 20px;
     position: relative;
   }
-  
-  .images-italian{
+
+  .images-italian {
     width: 100%;
   }
-  
+
   .special-offer-weekday,
   .special-offer-sweet,
   .discount {
@@ -111,17 +110,19 @@
     gap: 0;
     align-items: end;
   }
-  
+
   .white-block {
     background-color: white;
     padding: 20px;
-    width: calc(50% - 10px); /* Встановлюємо ширину блоку відповідно до ширини колонки з урахуванням відстані */
+    width: calc(
+      50% - 10px
+    ); /* Встановлюємо ширину блоку відповідно до ширини колонки з урахуванням відстані */
     margin-bottom: 20px; /* Додамо відстань між блоками */
   }
-  
-  .italian-drink{
+
+  .italian-drink {
     width: 370px;
-    height: 515px; 
+    height: 515px;
     margin: auto;
     border-radius: 8px;
     position: absolute;
@@ -129,24 +130,22 @@
   .italian-fish,
   .italian-meat {
     width: 370px;
-    height: 248px; 
+    height: 248px;
     margin: auto;
-   
   }
-  
-  
+
   .contacts__button-italian {
-    background-color:#ff5d28; 
-    color: #ffffff; 
-    font-family: Arial, sans-serif; 
-    font-size: 16px; 
-    font-weight: bold; 
-    padding: 14px 20px; 
-    border: none; 
+    background-color: #ff5d28;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 14px 20px;
+    border: none;
     border-radius: 7px 25px 25px 25px;
     cursor: pointer;
-    text-decoration: none; 
-    transition: 0.3s; 
+    text-decoration: none;
+    transition: 0.3s;
     position: relative;
     top: 40px;
     margin-left: 20px;
@@ -154,57 +153,54 @@
   .background-overlay_2z6 {
     position: absolute;
     z-index: 1;
-     width: 370px;
-    height: 515px; 
+    width: 370px;
+    height: 515px;
     margin: auto;
     border-radius: 10px;
-}
+  }
 
-.what-to-expect__name-italian-first {
-  z-index: 2;
-  font-family: var(--secondary-font);
-  color: #ffffff;
-  font-size: 26px;
-  font-weight: 400;
-  text-align: left;
-  padding-top: 300px;
-  padding-left: 20px;
-  position: relative;
- 
-}
-.block-text-italian-first{
-  font-size: 17px;
-  z-index: 2;
-  color: rgba(247,246,242,0.81);
-  font-family: var(--primary-font);
-  text-align: left;
-  line-height: 1.6;
-  width: fit-content;
-  position: relative;
-  top: 20px;
-  padding-left: 20px;
-
-}
-.what-to-expect__name-italian {
-  font-family: var(--secondary-font);
-  color: var(--main-text-color);
-  font-size: 26px;
-  font-weight: 400;
-  text-align: left;
-  padding-top: 20px;
-  position: relative;
-  padding-left: 20px;
-}
-.block-text-italian {
-  font-size: 17px;
-  color: var(--tertiary-text-color);
-  font-family: var(--primary-font);
-  text-align: left;
-  line-height: 1.6;
-  width: fit-content;
-  position: relative;
-  top: 20px;
-  padding-left: 20px;
-
-}
+  .what-to-expect__name-italian-first {
+    z-index: 2;
+    font-family: var(--secondary-font);
+    color: #ffffff;
+    font-size: 26px;
+    font-weight: 400;
+    text-align: left;
+    padding-top: 300px;
+    padding-left: 20px;
+    position: relative;
+  }
+  .block-text-italian-first {
+    font-size: 17px;
+    z-index: 2;
+    color: rgba(247, 246, 242, 0.81);
+    font-family: var(--primary-font);
+    text-align: left;
+    line-height: 1.6;
+    width: fit-content;
+    position: relative;
+    top: 20px;
+    padding-left: 20px;
+  }
+  .what-to-expect__name-italian {
+    font-family: var(--secondary-font);
+    color: var(--main-text-color);
+    font-size: 26px;
+    font-weight: 400;
+    text-align: left;
+    padding-top: 20px;
+    position: relative;
+    padding-left: 20px;
+  }
+  .block-text-italian {
+    font-size: 17px;
+    color: var(--tertiary-text-color);
+    font-family: var(--primary-font);
+    text-align: left;
+    line-height: 1.6;
+    width: fit-content;
+    position: relative;
+    top: 20px;
+    padding-left: 20px;
+  }
 }

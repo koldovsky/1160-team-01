@@ -17,8 +17,8 @@
 }
 
 .catering__ul {
-    padding-left: 0 !important;
-    padding-right: 0 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }
 
 .catering__header {
@@ -31,8 +31,8 @@
 }
 
 .catering__orange-delimiter {
-    width: 70px;
-    max-width: 100px;
+  width: 70px;
+  max-width: 100px;
 }
 
 .catering__text {
@@ -51,9 +51,9 @@
 }
 
 .catering__article {
-    display: flex;
-    margin-top: 20px;
-  }
+  display: flex;
+  margin-top: 20px;
+}
 
 .catering__article-img {
   margin: 7.5px;
@@ -72,8 +72,8 @@
 }
 
 .catering__dot {
-    color: var(--title-text-color);
-    padding-right: 15px;
+  color: var(--title-text-color);
+  padding-right: 15px;
 }
 
 @media (min-width: 768px) {

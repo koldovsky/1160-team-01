@@ -1,174 +1,174 @@
 .ourspace__content-topic-title {
-    font-size: var(--about-us-topic-title-font-size);
-    line-height: var(--about-us-title-line-heigth-primary);
-    color: var(--title-text-color);
-    text-transform: uppercase;
+  font-size: var(--about-us-topic-title-font-size);
+  line-height: var(--about-us-title-line-heigth-primary);
+  color: var(--title-text-color);
+  text-transform: uppercase;
 }
 
 .ourspace__content-topic-subtitle {
-    font-size: var(--about-us-topic-subtitle-font-size);
-    line-height: var(--about-us-subtitle-line-heigth-primary);
-    color: var(--main-text-color);
-    font-family: var(--secondary-font);
-    margin: 20px 0 0 0;
+  font-size: var(--about-us-topic-subtitle-font-size);
+  line-height: var(--about-us-subtitle-line-heigth-primary);
+  color: var(--main-text-color);
+  font-family: var(--secondary-font);
+  margin: 20px 0 0 0;
 }
 
 .ourspace__content-decoration {
-    max-width: 70px;
+  max-width: 70px;
 }
 
 .ourspace__content-subtitle-text {
-    font-size: var(--about-us-topic-text-font-size);
-    line-height: var(--about-us-subtitle-line-heigth-secondary);
-    color: var(--secondary-text-color);
-    font-weight: bold;
-    margin: 15px 0;
+  font-size: var(--about-us-topic-text-font-size);
+  line-height: var(--about-us-subtitle-line-heigth-secondary);
+  color: var(--secondary-text-color);
+  font-weight: bold;
+  margin: 15px 0;
 }
 
 .ourspace__content-text {
-    font-family: var(--primary-font);
-    color: var(--tertiary-text-color);
-    font-size: 17px;
-    font-weight: 400;
-    text-align: left;
-    padding-bottom: 50px;
+  font-family: var(--primary-font);
+  color: var(--tertiary-text-color);
+  font-size: 17px;
+  font-weight: 400;
+  text-align: left;
+  padding-bottom: 50px;
 }
 
 .ourspace__container {
-    max-width: 1200px;
-    padding: 90px 30px;
-    margin: 0 auto;
+  max-width: 1200px;
+  padding: 90px 30px;
+  margin: 0 auto;
 }
 
 .ourspace__container-content-text {
-    max-width: 1200px;
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .column {
-    max-width: 100%;
-    flex: 0 0 58%;
-    min-height: 1px;
-    margin-bottom: 10px;
-    margin-top: 30px;
+  max-width: 100%;
+  flex: 0 0 58%;
+  min-height: 1px;
+  margin-bottom: 10px;
+  margin-top: 30px;
 }
 
 .text-column {
-    max-width: 100%;
-    flex: 60 0 0%;
-    padding: 0 15px;
-    margin-bottom: 15px;
-    /*padding-top: 80px;*/
-    padding-bottom: 0;
+  max-width: 100%;
+  flex: 60 0 0%;
+  padding: 0 15px;
+  margin-bottom: 15px;
+  /*padding-top: 80px;*/
+  padding-bottom: 0;
 }
 
 .ourspace__images {
-    padding: 10px 0;
+  padding: 10px 0;
 }
 
 .ourspace__images-bar {
-    padding: 20px 0 10px 0;
+  padding: 20px 0 10px 0;
 }
 
 .ourspace__booknow {
-    background-image: url(../img/about-us-our-space/book_now_bg.png);
-    background-position: center;
-    padding: 30px;
+  background-image: url(../img/about-us-our-space/book_now_bg.png);
+  background-position: center;
+  padding: 30px;
 }
 
 .ourspace__booknow-title {
-    color: var(--gift-card-title);
-    font-size: var(--about-us-topic-title-font-size);
-    line-height: var(--about-us-title-line-heigth-primary);
-    padding: 5px 0;
+  color: var(--gift-card-title);
+  font-size: var(--about-us-topic-title-font-size);
+  line-height: var(--about-us-title-line-heigth-primary);
+  padding: 5px 0;
 }
 
 .ourspace__booknow-subtitle {
-    color: var(--gift-card-subtitle);
-    font-family: var(--secondary-font);
-    font-size: calc(var(--about-us-topic-subtitle-font-size) * 0.75);
-    line-height: calc(var(--about-us-subtitle-line-heigth-primary) * 0.8);
-    margin: 15px 0 5px;
-    padding: 10px;
+  color: var(--gift-card-subtitle);
+  font-family: var(--secondary-font);
+  font-size: calc(var(--about-us-topic-subtitle-font-size) * 0.75);
+  line-height: calc(var(--about-us-subtitle-line-heigth-primary) * 0.8);
+  margin: 15px 0 5px;
+  padding: 10px;
 }
 
 .ourspace__booknow-text {
-    color: var(--gift-card-text-white);
-    font-size: var(--about-us-topic-text-font-size);
-    line-height: var(--about-us-subtitle-line-heigth-secondary);
-    margin: 20px 0;
+  color: var(--gift-card-text-white);
+  font-size: var(--about-us-topic-text-font-size);
+  line-height: var(--about-us-subtitle-line-heigth-secondary);
+  margin: 20px 0;
 }
 
 @media (min-width: 600px) {
-    .text-column {
-        padding-top: 50px;
-    }
+  .text-column {
+    padding-top: 50px;
+  }
 
-    .ourspace__images {
-        float: left;
-        padding: 10px;
-        cursor: pointer;
-    }
+  .ourspace__images {
+    float: left;
+    padding: 10px;
+    cursor: pointer;
+  }
 
-    .ourspace__container-img:after {
-        content: "";
-        display: table;
-        clear: both;
-    }
+  .ourspace__container-img:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 
-    .ourspace__images-restaurant {
-        width: 61%
-    }
+  .ourspace__images-restaurant {
+    width: 61%;
+  }
 
-    .ourspace__images-peoples {
-        width: 39%;
-        padding: 10px;
-    }
+  .ourspace__images-peoples {
+    width: 39%;
+    padding: 10px;
+  }
 
-    .ourspace__images-views {
-        width: 100%;
-        padding: 10px;
-    }
+  .ourspace__images-views {
+    width: 100%;
+    padding: 10px;
+  }
 
-    .ourspace__images-bar {
-        padding-top: 35px;
-    }
+  .ourspace__images-bar {
+    padding-top: 35px;
+  }
 }
 
 @media (min-width: 750px) {
-    .text-column {
-        padding-top: 80px;
-    }
+  .text-column {
+    padding-top: 80px;
+  }
 
-    .ourspace__images {
-        float: left;
-        padding: 10px;
-        cursor: pointer;
-    }
+  .ourspace__images {
+    float: left;
+    padding: 10px;
+    cursor: pointer;
+  }
 
-    .ourspace__container-img:after {
-        content: "";
-        display: table;
-        clear: both;
-    }
+  .ourspace__container-img:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 
-    .ourspace__images-restaurant {
-        width: 42%
-    }
+  .ourspace__images-restaurant {
+    width: 42%;
+  }
 
-    .ourspace__images-peoples {
-        width: 27%;
-        padding: 10px;
-    }
+  .ourspace__images-peoples {
+    width: 27%;
+    padding: 10px;
+  }
 
-    .ourspace__images-views {
-        width: 31%;
-        padding: 10px;
-    }
+  .ourspace__images-views {
+    width: 31%;
+    padding: 10px;
+  }
 
-    .ourspace__images-bar {
-        padding-top: 35px;
-    }
+  .ourspace__images-bar {
+    padding-top: 35px;
+  }
 }

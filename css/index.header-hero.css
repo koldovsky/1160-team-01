@@ -13,7 +13,7 @@
 .header__hero {
   max-width: 900px;
   height: auto;
-    display: flex;
+  display: flex;
   flex-direction: column;
   margin-left: auto;
   margin-right: auto;
@@ -80,6 +80,5 @@
 
 @media (max-width: 990px) {
   .header__hero {
-    
   }
 }
