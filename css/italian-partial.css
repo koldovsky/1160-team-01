@@ -1,18 +1,18 @@
 
+
 .content-italian {
   min-height: 800px;
-  max-height: 1200px;
+  max-height: 2000px;
   position: relative;
 }
 
 .background-italian {
   background-size: cover;
   background-repeat: no-repeat;
-  min-height: 100%; /* Змінено на 100% */
-  max-height: 100%; /* Змінено на 100% */
+  min-height: 100%; 
+  max-height: 100%;
   position: absolute;
   width: 100%;
-  
   top: 0;
 }
 .middle-background-italian {
@@ -51,132 +51,203 @@
   font-weight: bold;
 }
 
+
 .blocks-of-images-italian {
   display: grid;
-  gap: 5px;
+  gap: 0;
   border: 1px;
   padding: 5px;
   margin-bottom: 20px;
 }
-.background-italian{
- position: absolute;
-}
+
 .image-column{
-  width: 400px;
-  height: 515px;
+  padding: 0 15px;
+  max-width: 100%;
+  max-height: 515px;
+  padding: 15px;
 }
-  .italian-fish,
-  .italian-meat {
-    width: 370;
-    height: 515px; 
-    margin-left: 0px;
-    margin-bottom: 0px;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-  .italian-drink{
-    width: 317px;
-    height: 515px; 
-    margin-left: 0px;
-    margin-bottom: 0px;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+.wrapper-first-photo{
+  position: relative;
+  height: 100%;
+}
+.italian-drink{
+  max-width: 100%;
+  height: 100%;
+  margin: auto;
+  border-radius: 8px;
+  position: relative;
+}
+.background-overlay_2z6 {
+  position: absolute;
+  top:0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  border-radius: 8px;
+}
+.italian-food{
+  max-width: 100%;
+  max-height: 248px;
+  position: relative;
+}
+.italian-food-img{
+  width:100%;
+  height: 100%;
+  position: relative;
+}
+.what-to-expect__name-italian {
+  font-family: var(--secondary-font);
+  color: var(--main-text-color);
+  font-size: 26px;
+  font-weight: 400;
+  text-align: left;
+  padding-top: 20px;
+  position: relative;
+}
+.block-text-italian {
+  font-size: 17px;
+  color: var(--tertiary-text-color);
+  font-family: var(--primary-font);
+  text-align: left;
+  line-height: 1;
+  width: fit-content;
+  position: relative;
+  padding-bottom: 20px;
+}
+.contacts__button-italian {
+  background-color:#ff5d28; 
+  color: #ffffff; 
+  font-family: Arial, sans-serif; 
+  font-size: 16px; 
+  font-weight: bold; 
+  padding: 14px 20px; 
+  border: none; 
+  border-radius: 7px 25px 25px 25px;
+  cursor: pointer;
+  text-decoration: none; 
+  transition: 0.3s; 
+  position: relative;
+
+}
+
+@media (min-width: 1000px) {
+  .content-italian {
+    min-height: 800px;
+    max-height: 1200px;
+    position: relative;
   }
   
-  .content-italian {
+  .background-italian {
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: left;
-  }
-
-
-@media (min-width: 768px) {
-  .blocks-of-images-italian {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 0px;
-    flex-wrap: wrap;
-    margin-bottom: 20px;
+    min-height: 100%; 
+    max-height: 100%;
     position: absolute;
+    width: 100%;
+    top: 0;
   }
-
-  .images-italian {
-    position: relative;
+  .middle-background-italian {
+    position: absolute;
+    width: 100%;
+    height:100%;
+    background-color: #fff;
+    z-index: -2;
   }
-
-  .special-offer-weekday,
-  .special-offer-sweet,
-  .discount {
-    display: flex;
-    flex-direction: column;
-    gap: 0;
-    align-items: end;
+  .top-background-italian {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
   }
-
-  .white-block {
-    background-color: white;
-    padding: 20px;
-    width: 355.6px;
-    height: 325.01px;
-    margin-left: 0;
-    margin-bottom: 0;
-  }
-
-
-}
-
-@media (min-width: 900px) {
-  .blocks-of-images-italian {
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 0px;
-    width: 100%; 
-    max-width: 1170px; 
-    margin: auto ; 
-    margin-bottom: 20px;
-    position: relative;
+  .bot-background-italian {
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
   }
   
-  .images-italian{
+  .italian-content{
+    position: absolute;
+    height: 100%;
     width: 100%;
   }
-
-  .special-offer-weekday,
-  .special-offer-sweet,
-  .discount {
-    display: flex;
-    flex-direction: column;
-    gap: 0;
-    align-items: end;
-  }
-
-  .white-block {
-    background-color: white;
-    padding: 20px;
-    width: calc(50% - 10px); /* Встановлюємо ширину блоку відповідно до ширини колонки з урахуванням відстані */
-    margin-bottom: 20px; /* Додамо відстань між блоками */
+  .title-italian {
+    font-size: 11px;
+    color: var(--title-text-color);
+    font-family: var(--primary-font);
+    line-height: 32px;
+    position: relative;
+    padding-top: 30px;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: bold;
   }
   
+  
+  .blocks-of-images-italian {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0px;
+    max-width: 1200px; 
+    margin: auto ; 
+    padding: 0 120px;
+    position: relative;
+  }
+  
+  .image-column{
+    padding: 0 15px;
+    max-width: 400px;
+    height: 515px;
+  }
+  .wrapper-first-photo{
+    position: relative;
+    height: 100%;
+  }
   .italian-drink{
-    width: 370px;
-    height: 515px; 
+    max-width: 100%;
+    height: 100%;
     margin: auto;
     border-radius: 8px;
+    position: relative;
+  }
+  .background-overlay_2z6 {
     position: absolute;
-  }
-  .italian-fish,
-  .italian-meat {
-    width: 370px;
-    height: 248px;
+    top:0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
     margin: auto;
+    border-radius: 8px;
   }
-  
-  
+  .italian-food{
+    max-width: 100%;
+    max-height: 248px;
+    position: relative;
+  }
+  .italian-food-img{
+    width:100%;
+    height: 100%;
+    position: relative;
+  }
+  .what-to-expect__name-italian {
+    font-family: var(--secondary-font);
+    color: var(--main-text-color);
+    font-size: 26px;
+    font-weight: 400;
+    text-align: left;
+    padding-top: 20px;
+    position: relative;
+  }
+  .block-text-italian {
+    font-size: 17px;
+    color: var(--tertiary-text-color);
+    font-family: var(--primary-font);
+    text-align: left;
+    line-height: 1;
+    width: fit-content;
+    position: relative;
+    padding-bottom: 20px;
+  }
   .contacts__button-italian {
     background-color:#ff5d28; 
     color: #ffffff; 
@@ -189,64 +260,8 @@
     cursor: pointer;
     text-decoration: none; 
     transition: 0.3s; 
-    position: relative;
-    top: 40px;
-    margin-left: 20px;
-  }
-  .background-overlay_2z6 {
     position: absolute;
-    z-index: 1;
-    width: 370px;
-    height: 515px;
-    margin: auto;
-    border-radius: 10px;
+    bottom: 10px;
   }
-
-.what-to-expect__name-italian-first {
-  z-index: 2;
-  font-family: var(--secondary-font);
-  color: #ffffff;
-  font-size: 26px;
-  font-weight: 400;
-  text-align: left;
-  padding-top: 300px;
-  padding-left: 20px;
-  position: relative;
- 
-}
-.block-text-italian-first{
-  font-size: 17px;
-  z-index: 2;
-  color: rgba(247,246,242,0.81);
-  font-family: var(--primary-font);
-  text-align: left;
-  line-height: 1.6;
-  width: fit-content;
-  position: relative;
-  top: 20px;
-  padding-left: 20px;
-
-}
-.what-to-expect__name-italian {
-  font-family: var(--secondary-font);
-  color: var(--main-text-color);
-  font-size: 26px;
-  font-weight: 400;
-  text-align: left;
-  padding-top: 20px;
-  position: relative;
-  padding-left: 20px;
-}
-.block-text-italian {
-  font-size: 17px;
-  color: var(--tertiary-text-color);
-  font-family: var(--primary-font);
-  text-align: left;
-  line-height: 1.6;
-  width: fit-content;
-  position: relative;
-  top: 20px;
-  padding-left: 20px;
-
-}
+  
 }
