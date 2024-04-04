@@ -4,6 +4,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://unpkg.com/htmx.org@1.9.10"
+    integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC"
+    crossorigin="anonymous"></script>
   <title>Our space</title>
 </head>
 
@@ -31,17 +34,29 @@
           </p>
         </div>
       </div>
-      <div class="ourspace__container-img">
-        <div class="ourspace__images ourspace__images-restaurant"><img
-            src="img/about-us-our-space/ourspace-restaurant.jpg" alt="alternative" /></div>
-        <div class="ourspace__images ourspace__images-peoples"><img src="img/about-us-our-space/ourspace-peoples.jpg"
-            alt="alternative" />
-          <div class="ourspace__images-bar"><img src="img/about-us-our-space/ourspace-bar.jpg" alt="alternative" />
+      <div class="ourspace__full-img-box">
+        <div id="modal">
+          <span class="close" onclick="closeModal()">&times;</span>
+          <div id="modal-content">
+            <img id="modal-img" src="" alt="Full screen image">
           </div>
         </div>
-        <div class="ourspace__images ourspace__images-views"><img src="img/about-us-our-space/ourspace-views.webp"
-            alt="alternative" /></div>
-        <!--<div class="ourspace__images ourspace__images-bar"><img src="img/about-us-our-space/ourspace-bar.jpg" alt="alternative" /></div>-->
+      </div>
+      <div class="ourspace__container-img" id="container-imgs">
+        <div class="ourspace__images ourspace__images-restaurant"><img id="full-img-box"
+            onclick="openModal('img/about-us-our-space/ourspace-restaurant.jpg')"
+            src="img/about-us-our-space/ourspace-restaurant.jpg" alt="alternative" /></div>
+        <div class="ourspace__images ourspace__images-peoples"><img id="full-img-box"
+            onclick="openModal('img/about-us-our-space/ourspace-peoples.jpg')"
+            src="img/about-us-our-space/ourspace-peoples.jpg" alt="alternative" />
+          <div class="ourspace__images-bar"><img id="full-img-box"
+              onclick="openModal('img/about-us-our-space/ourspace-bar.jpg')"
+              src="img/about-us-our-space/ourspace-bar.jpg" alt="alternative" />
+          </div>
+        </div>
+        <div class="ourspace__images ourspace__images-views"><img id="full-img-box"
+            onclick="openModal('img/about-us-our-space/ourspace-views.webp')"
+            src="img/about-us-our-space/ourspace-views.webp" alt="alternative" /></div>
       </div>
       <div class="ourspace__booknow">
         <h2 class="ourspace__booknow-title">- BOOK NOW -</h2>
@@ -54,6 +69,7 @@
       </div>
     </div>
   </section>
+  <script src="js/about-us.our-space-photos.js"></script>
 </body>
 
 </html>
