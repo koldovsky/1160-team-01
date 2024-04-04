@@ -1,76 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Our space</title>
-  </head>
 
-  <body>
-    <section class="ourspace">
-      <div class="ourspace__container">
-        <div class="ourspace__container-content-text">
-          <div class="ourspace__content-topic column">
-            <h2 class="ourspace__content-topic-title">- OUR SPACE -</h2>
-            <p class="ourspace__content-topic-subtitle">
-              Beautiful Views of Our Restaurants
-            </p>
-            <img
-              class="ourspace__content-decoration"
-              src="img/about-us-our-team/decoration.svg"
-              alt="decoration image"
-            />
-            <p class="ourspace__content-subtitle-text">
-              Spaciousness and Mediterranean sophistication in our interiors.
-            </p>
-          </div>
-          <div class="ourspace__content-topic-text text-column">
-            <p class="ourspace__content-text">
-              All El Gambino restaurants have enough space to hold any events,
-              ranging from birthday parties, sweet 16th, anniversaries, to large
-              corporate events, university-related parties, and weddings.
-              Celebrate your special event or private party and surprise your
-              guests with our culinary delights.
-            </p>
-          </div>
-        </div>
-        <div class="ourspace__container-img">
-          <div class="ourspace__images ourspace__images-restaurant">
-            <img
-              src="img/about-us-our-space/ourspace-restaurant.jpg"
-              alt="alternative"
-            />
-          </div>
-          <div class="ourspace__images ourspace__images-peoples">
-            <img
-              src="img/about-us-our-space/ourspace-peoples.jpg"
-              alt="alternative"
-            />
-            <div class="ourspace__images-bar">
-              <img
-                src="img/about-us-our-space/ourspace-bar.jpg"
-                alt="alternative"
-              />
-            </div>
-          </div>
-          <div class="ourspace__images ourspace__images-views">
-            <img
-              src="img/about-us-our-space/ourspace-views.webp"
-              alt="alternative"
-            />
-          </div>
-          <!--<div class="ourspace__images ourspace__images-bar"><img src="img/about-us-our-space/ourspace-bar.jpg" alt="alternative" /></div>-->
-        </div>
-        <div class="ourspace__booknow">
-          <h2 class="ourspace__booknow-title">- BOOK NOW -</h2>
-          <p class="ourspace__booknow-subtitle">
-            What Are You Still Waiting for?
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://unpkg.com/htmx.org@1.9.10"
+    integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC"
+    crossorigin="anonymous"></script>
+  <title>Our space</title>
+</head>
+
+<body>
+  <section class="ourspace">
+    <div class="ourspace__container">
+      <div class="ourspace__container-content-text">
+        <div class="ourspace__content-topic column">
+          <h2 class="ourspace__content-topic-title">- OUR SPACE -</h2>
+          <p class="ourspace__content-topic-subtitle">
+            Beautiful Views of Our Restaurants
           </p>
-          <p class="ourspace__booknow-text">
-            Book a table in our restaurant right now!
+          <img class="ourspace__content-decoration" src="img/about-us-our-team/decoration.svg" alt="decoration image" />
+          <p class="ourspace__content-subtitle-text">
+            Spaciousness and Mediterranean sophistication in our interiors.
+          </p>
+        </div>
+        <div class="ourspace__content-topic-text text-column">
+          <p class="ourspace__content-text">
+            All El Gambino restaurants have enough space to hold any events,
+            ranging from birthday parties, sweet 16th, anniversaries, to large
+            corporate events, university-related parties, and weddings.
+            Celebrate your special event or private party and surprise your
+            guests with our culinary delights.
           </p>
         </div>
       </div>
-    </section>
-  </body>
+      <div class="ourspace__full-img-box">
+        <div id="modal">
+          <span class="close" onclick="closeModal()">&times;</span>
+          <div id="modal-content">
+            <img id="modal-img" src="" alt="Full screen image">
+          </div>
+        </div>
+      </div>
+      <div class="ourspace__container-img" id="container-imgs">
+        <div class="ourspace__images ourspace__images-restaurant"><img id="full-img-box"
+            onclick="openModal('img/about-us-our-space/ourspace-restaurant.jpg')"
+            src="img/about-us-our-space/ourspace-restaurant.jpg" alt="alternative" /></div>
+        <div class="ourspace__images ourspace__images-peoples"><img id="full-img-box"
+            onclick="openModal('img/about-us-our-space/ourspace-peoples.jpg')"
+            src="img/about-us-our-space/ourspace-peoples.jpg" alt="alternative" />
+          <div class="ourspace__images-bar"><img id="full-img-box"
+              onclick="openModal('img/about-us-our-space/ourspace-bar.jpg')"
+              src="img/about-us-our-space/ourspace-bar.jpg" alt="alternative" />
+          </div>
+        </div>
+        <div class="ourspace__images ourspace__images-views"><img id="full-img-box"
+            onclick="openModal('img/about-us-our-space/ourspace-views.webp')"
+            src="img/about-us-our-space/ourspace-views.webp" alt="alternative" /></div>
+      </div>
+      <div class="ourspace__booknow">
+        <h2 class="ourspace__booknow-title">- BOOK NOW -</h2>
+        <p class="ourspace__booknow-subtitle">
+          What Are You Still Waiting for?
+        </p>
+        <p class="ourspace__booknow-text">
+          Book a table in our restaurant right now!
+        </p>
+      </div>
+    </div>
+  </section>
+  <script src="js/about-us.our-space-photos.js"></script>
+</body>
+
 </html>
